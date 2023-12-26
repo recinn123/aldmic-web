@@ -1,0 +1,113 @@
+
+/* Regular */
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('/fonts/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Bold */
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url('/fonts/Lato-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Italic */
+@font-face {
+    font-family: 'Lato-Italic';
+    src: url('/fonts/Lato-Italic.ttf') format('truetype');
+    font-style: italic;
+}
+
+/* Bold Italic */
+@font-face {
+    font-family: 'Lato-BoldItalic';
+    src: url('/fonts/Lato-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Black */
+@font-face {
+    font-family: 'Lato-Black';
+    src: url('/fonts/Lato-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* Black Italic */
+@font-face {
+    font-family: 'Lato-BlackItalic';
+    src: url('/fonts/Lato-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+/* Thin */
+@font-face {
+    font-family: 'Lato-Thin';
+    src: url('/fonts/Lato-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* Thin Italic */
+@font-face {
+    font-family: 'Lato-ThinItalic';
+    src: url('/fonts/Lato-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+/* Light */
+@font-face {
+    font-family: 'Lato-Light';
+    src: url('/fonts/Lato-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Light Italic */
+@font-face {
+    font-family: 'Lato-LightItalic';
+    src: url('/fonts/Lato-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+body {
+    font-family: 'Lato-Regular', sans-serif;
+}
+
+.banner-background {
+    background-image: url('images/background.png'); /* Set your background image path */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0; /* Adjust the padding according to your design */
+    text-align: center;
+}
+
+/* Default styling for all links inside the footer col-md-4 div */
+footer .col-md-4 a {
+    text-decoration: none;
+    color: #000; /* Default link color */
+}
+
+/* Hover effect for all links inside the footer col-md-4 div */
+footer .col-md-4 a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Styling for the h5 link inside the footer col-md-4 div */
+footer .col-md-4 a h5 {
+    color: #000; /* Default text color for h5 */
+}
+
+/* Hover effect for the h5 link inside the footer col-md-4 div */
+footer .col-md-4 a h5:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #17a2b8; /* Hovered link color for h5 */
+}

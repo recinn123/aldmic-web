@@ -1,0 +1,47 @@
+.banner-container {
+    position: relative;
+    text-align: center;
+    padding: 40px;
+}
+
+.card-img-top{
+    height: 100px;
+    width: auto;
+    object-fit: contain;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.banner-logo-paysgift{
+    width: auto;
+    height: 100px;
+}
+
+.line-heading {
+    position: relative;
+    display: inline-block;
+}
+
+.line-heading::before,
+.line-heading::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 150px;  
+    height: 7px;  
+    background-color: #17a2b8;
+    border-radius: 5px;
+}
+
+.line-heading::before {
+    left: -10px; transform: translateX(-100%);
+}
+
+.line-heading::after {
+    right: -10px; transform: translateX(100%);
+}
+
+.image-container {
+    display: block;
+    margin: 0 auto;
+}

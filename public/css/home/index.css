@@ -1,0 +1,6 @@
+.logo-img {
+    width: 100%; /* Make the image take up the full width of the column */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Remove any extra spacing */
+    margin: 0 auto; /* Center the image horizontally */
+}
