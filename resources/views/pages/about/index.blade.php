@@ -5,20 +5,20 @@
 @section('content')
 
     {{-- Banner Why Aldmic --}}
-    <div class="mt-5 container"
+    <div class=" container"
     style="background-image: url('{{ asset('images/background.png') }}');
             background-size: auto;
-            background-position: center;">
-        <h2 class="fw-bold mb-3 text-center text-secondary" style="font-weight: 900">
+            background-position: center 45%;">
+        <h1 class="fw-bolder pt-5 mb-1 text-center text-secondary">
             Why Aldmic ?
-        </h2>
+        </h1>
 
         <div class="row">
-            <h2 class="text-center fw-bold mb-5" style="white-space: pre-line;">
+            <h1 class="text-center fw-bolder mb-5" style="white-space: pre-line;">
                 Built Transformation Technology, COOPN Digital is your Reliable
                 Partner for Merchant Aggregator Services. Through New
                 Differentiated, <span class="text-info">We Already Lead The Market!</span>
-            </h2>
+            </h1>
         </div>
 
         <div class="row" style="text-align: justify">

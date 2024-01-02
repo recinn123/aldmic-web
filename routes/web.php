@@ -25,11 +25,10 @@ Route::get('/product', function() {
     return view('pages.product');
 })->name('product');
 
-
 Route::prefix('service')->group(function () {
 
     Route::get('/', function() {
-    return view('pages.service.index');
+    return view('pages.service.index'); 
     })->name('service.index');
     
     Route::get('/e-voucher-reseller', function() {
@@ -44,3 +43,7 @@ Route::prefix('service')->group(function () {
         return view('pages.service.mobile-gifting');
     })->name('service.mobile-gifting');
 });
+
+Route::get('/contact-us', function() {
+    return view('pages.contact-us.index');
+})->name('contact-us.index');

@@ -205,7 +205,7 @@
     <div class="container">
         <div class="mt-5 mb-5">
             <h1 class="fw-bold mb-5 text-center" style="font-size: 3rem">
-                We give best
+                We gift best
             </h1>
 
             <div class="row mb-5">

@@ -16,7 +16,7 @@
           <a class="nav-link me-3 " href="#">Study Case</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link me-5 ms-3" href="#">Contact us !</a>
+          <a class="nav-link me-5 ms-3 {{ Route::is('contact-us.index') ? 'active fw-bold' : '' }}" href="{{ route('contact-us.index') }}">Contact us !</a>
         </li>
       </ul>
     </div>
