@@ -111,3 +111,24 @@ footer .col-md-4 a h5:hover {
     text-decoration: underline; /* Underline on hover */
     color: #17a2b8; /* Hovered link color for h5 */
 }
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+
+.custom-center {
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover,
+.dropdown-item:active {
+    background-color: transparent;
+    outline: 1px solid gray; /* Adjust the color of the outline */
+}
+
+.dropdown-menu {
+    border-radius: 0; /* Remove rounded corners */
+}

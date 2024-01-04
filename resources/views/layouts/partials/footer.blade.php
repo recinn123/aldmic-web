@@ -1,4 +1,5 @@
 
+@if (!Route::is('contact-us.index'))
 {{-- Banner Contact us --}}
 <div class="container-fluid">
     <div class="row bg-info-subtle text-center shadow-sm">
@@ -7,11 +8,13 @@
                 Reach Out Now and Join Us
             </h1>
 
-            <a class="btn btn-primary mb-5 ps-4 pe-4 pt-2 pb-2" href="#">Contact us!</a>
+            <a class="btn btn-primary mb-5 ps-4 pe-4 pt-2 pb-2" href="{{ route('contact-us.index') }}">Contact us!</a>
         </div>
     </div>
 </div>
 {{-- End of Banner Contact us --}}
+@endif
+
 
 <footer class="container pt-5 pb-5">
     <div class="row">
@@ -57,7 +60,7 @@
                     <a href="{{ route('service.mobile-gifting') }}">Mobile Gifting</a><br>
                 </div>
                 <div class="col-md-4">
-                    <h5 class="pb-2 text-info fw-bold">Contact us</h5>
+                    <a href="{{ route('contact-us.index') }}"><h5 class="pb-2 text-info fw-bold">Contact us</h5></a>  
                     <a href="https://wa.me/6281294000367" target="_blank">+6281294000367</a><br>
                     <a href="mailto:callcenter@aldmic.com">callcenter@aldmic.com</a><br>
                 </div>

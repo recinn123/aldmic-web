@@ -35,7 +35,10 @@
             color: #000; /* Adjust text color if needed */
         }
     </style>
+    
+    <link rel="stylesheet" href="{{ asset('css/service/mobile.css') }}">    
 @endpush
+
 
 @section('content')
     
@@ -138,22 +141,22 @@
                     </h1>
                 </div>
                 <div class="row">
-                    <div class="mb-3 border-3 border-dark text-secondary border-bottom fs-3">
+                    <div class="mb-3 border-3 border-dark border-bottom fs-3 feature-item">
                         Simple and Seamless Platform
                     </div>
-                    <div class="mb-3 border-3 border-dark text-secondary border-bottom fs-3">
+                    <div class="mb-3 border-3 border-dark border-bottom fs-3 feature-item">
                         Easy to Use for User
                     </div>
-                    <div class="mb-3 border-3 border-dark text-secondary border-bottom fs-3">
+                    <div class="mb-3 border-3 border-dark border-bottom fs-3 feature-item">
                         Get New First of The Best Loyalty Platform.
                     </div>
-                    <div class="mb-3 border-3 border-dark text-secondary border-bottom fs-3">
+                    <div class="mb-3 border-3 border-dark border-bottom fs-3 feature-item">
                         More Revenue Streams To Make A Profitable Platform.
                     </div>
-                    <div class="mb-3 border-3 border-dark text-secondary border-bottom fs-3">
+                    <div class="mb-3 border-3 border-dark border-bottom fs-3 feature-item">
                         Use for Brand Promotion Strategy.
                     </div>
-                    <div class="mb-3 border-3 border-dark text-secondary border-bottom fs-3">
+                    <div class="mb-3 border-3 border-dark border-bottom fs-3 feature-item">
                         Various retention product reward.
                     </div>
                 </div>

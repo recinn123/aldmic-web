@@ -4,3 +4,12 @@
     display: block; /* Remove any extra spacing */
     margin: 0 auto; /* Center the image horizontally */
 }
+
+.img-infrastructure img {
+    opacity: 0.2; /* Set initial transparency */
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+.img-infrastructure img:hover {
+    opacity: 1; /* Set opacity to 1 on hover */
+}

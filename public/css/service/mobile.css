@@ -1,0 +1,12 @@
+.feature-item {
+    font-size: 1.5rem;
+    padding: 20px;
+    border-bottom: 3px solid transparent; /* Initial transparent border-bottom */
+    transition: 0.3s ease-in-out;
+  }
+
+.feature-item:hover {
+    font-weight: bold;
+    border-bottom-width: 5px; /* Increase border-bottom width on hover */
+}
+

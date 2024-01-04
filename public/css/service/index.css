@@ -45,3 +45,8 @@
     display: block;
     margin: 0 auto;
 }
+
+.card:hover {
+    background-color: #f8f9fa; /* Set the background color when hovering */
+    cursor: pointer; /* Change cursor to a pointer */
+}
