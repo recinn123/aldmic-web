@@ -35,7 +35,7 @@
     {{-- End of Mini Footer --}}
 
     <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-
+    <script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
     {{-- Custom JS  --}}
     @stack('script')
     {{-- End of Custom JS --}}

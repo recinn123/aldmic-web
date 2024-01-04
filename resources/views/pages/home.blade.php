@@ -3,7 +3,7 @@
 @section('title', ' - Home')
 
 @push('css')
-    <link rel="stylesheet" href="{{ asset('css/home/index.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/home/index.css') }}">    
 @endpush
 
 @section('content')
@@ -93,7 +93,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 img-infrastructure">
                     <img src="{{ asset('images/home/home_banner_mid.png') }}" alt="" width="100%">
                 </div>
             </div>

@@ -2,6 +2,10 @@
 
 @section('title', ' - Loyalty Program')
 
+@push('css')
+    <link rel="stylesheet" href="{{ asset('css/service/loyalty.css') }}">    
+@endpush
+
 @section('content')
     
     {{-- Banner Loyalty Program --}}
@@ -41,29 +45,25 @@
                     </h1>
                 </div>
                 <div class="row">
-                    <div class="mb-5 border-3 border-dark text-secondary border-bottom fs-3">
+                    <div class="mb-5 border-3 border-dark border-bottom fs-3 feature-item"  onclick="showQuote('Personalize Rewards', '&rdquo;Offer your best rewards to customers that you need in various product, services, promotion, experience such as concert, wellness, travelling and etc.&rdquo;')">
                         Personalize Rewards
                     </div>
-                    <div class="mb-5 border-3 border-dark border-bottom fs-3 fw-bold">
+                    <div class="mb-5 border-3 border-dark border-bottom fs-3 feature-item"  onclick="showQuote('Loyalty Systems That Suite For You', '&rdquo;Not only rewards, loyalty systems can be personalized based that are suitable for your industries. You can use the tier and points as part of loyalty.&rdquo;')">
                         Loyalty Systems That Suite For You
                     </div>
-                    <div class="mb-5 border-3 border-dark text-secondary border-bottom fs-3">
+                    <div class="mb-5 border-3 border-dark border-bottom fs-3 feature-item" onclick="showQuote('Data Communications System', '&rdquo;Aldmic COOPN ensure that data communication systems can be seamless with the all digital platform through email and push notifications on demand&rdquo;')">
                         Data Communications System
                     </div>
-                    <div class="mb-5 border-3 border-dark text-secondary border-bottom fs-3">
+                    <div class="mb-5 border-3 border-dark border-bottom fs-3 feature-item" onclick="showQuote('The Best Customer Service', '&rdquo;As Merchant Aggregator Solution, Aldmic COOPN ensure the best customer service 7 x 24 Hours with high Service Level Aggrement.&rdquo;')">
                         The Best Customer Service
                     </div>
                 </div>
             </div>
             
-            <div class="col-md-5 col-sm-12 align-items-center text-center mb-5">
-                <img class="mb-3" src="{{ asset('images/service/loyalty-program/loyalty_banner.png') }}" alt="" style="width: auto;">
-                <h4 class="fw-bold" style="white-space: pre-line">
-                    &rdquo;Not only rewards, loyalty systems
-                    can be personalized based that are
-                    suitable for your industries. You can
-                    use the tier and points as part of
-                    loyalty.&rdquo;
+            <div class="col-md-5 col-sm-12 align-items-center text-center mb-5 center-container">
+                <img class="pt-5 mb-3" src="{{ asset('images/service/loyalty-program/loyalty_banner.png') }}" alt="" style="width: auto;">
+                <h4 class="fw-bold quote pt-3" style="white-space: pre-line">
+
                 </h4>
             </div>
         </div>
@@ -243,10 +243,40 @@
         </div>
 
         <div class="row mt-5 justify-content-around align-items-center text-center">
-            <h3 class="text-secondary fw-bold">
-                Show More
-            </h3>
+            <a href="{{ route('service.index') }}" class="show-more-link">
+                <h3 class="text-secondary fw-bold">
+                    Show More
+                </h3>
+            </a>
         </div>
     </div>
-    {{-- End ocf Banner Projects --}}
+    {{-- End of Banner Projects --}}
 @endsection
+
+@push('script')
+<script>
+function showQuote(feature, quoteContent) {
+    // Hide all quotes
+    document.querySelectorAll('.quote').forEach(function (quote) {
+      quote.classList.remove('fade-up'); // Remove fade-up class
+      quote.style.display = 'none';
+    });
+
+    // Show the quote corresponding to the clicked feature with fade-up animation
+    var quote = document.querySelector('.quote');
+    if (quote) {
+      quote.textContent = quoteContent;
+      quote.style.display = 'block';
+      setTimeout(function() {
+        quote.classList.add('fade-up'); // Add fade-up class after a short delay
+      }, 10);
+    }
+
+    // Remove justify-content-center class from the container
+    var container = document.querySelector('.center-container');
+    if (container) {
+      container.classList.remove('justify-content-center');
+    }
+  }
+</script>
+@endpush

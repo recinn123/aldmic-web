@@ -2,6 +2,10 @@
 
 @section('title', 'About us')
 
+@push('css')
+    <link rel="stylesheet" href="{{ asset('css/about/index.css') }}">    
+@endpush
+
 @section('content')
 
     {{-- Banner Why Aldmic --}}
@@ -9,12 +13,12 @@
     style="background-image: url('{{ asset('images/background.png') }}');
             background-size: auto;
             background-position: center 45%;">
-        <h1 class="fw-bolder pt-5 mb-1 text-center text-secondary">
+        <h1 class="fw-bolder pt-5 mb-1 text-center text-secondary" style="font-size: 3rem">
             Why Aldmic ?
         </h1>
 
         <div class="row">
-            <h1 class="text-center fw-bolder mb-5" style="white-space: pre-line;">
+            <h1 class="align-items-center text-center fw-bolder mb-5" style="white-space: pre-line;font-size: 2.5rem;font-weight:900">
                 Built Transformation Technology, COOPN Digital is your Reliable
                 Partner for Merchant Aggregator Services. Through New
                 Differentiated, <span class="text-info">We Already Lead The Market!</span>
@@ -79,58 +83,17 @@
     {{-- Banner Milestone --}}
     <div class="container">
         <div class="row">
-            <h2 class="fw-bold text-center" style="font-weight: 900">
+            <h2 class="fw-bolder text-center" style="font-weight: 900">
                 Milestone
             </h2>
 
-            <div class="row mb-5">
-                <div class="col d-flex align-items-center">
-                    <span class="fw-bold fs-3 me-5" >2005</span>
-                    <span>
-                        <h5 class="fw-bold">
-                            Founded COOP Marketing
-                        </h5>
-                        <span>
-                            Founded COOP Marketing as The First Merchant
-                            Aggregator To All Digital Platforms with High Scalability.
-                        </span>
-                    </span>
-                </div>
+            <div class="pt-5 milestone-row d-flex justify-content-center">
+                <span class="fw-bolder fs-2 ms-5" >2005</span>
+                <span class="">divider</span>
+                <span>Founded COOPN Marketing</span>
             </div>
-
-            <div class="row mb-5">
-                <div class="col d-flex align-items-center">
-                    <span class="fw-bolder me-5" style="font-size: 3rem">2010</span>
-                    <span>
-                        <h2 class="fw-bolder">
-                            Appointed as a KAKAO Gift Service
-                        </h2>
-                        <span class="fs-3">
-                            Founded COOP Marketing as The First Merchant Aggregator
-                            To All Digital Platforms with High Scalability.
-                        </span>
-                    </span>
-                </div>
-            </div>
-
-
-            <div class="row mb-5">
-                <div class="col d-flex align-items-center">
-                    <span class="fw-bold fs-3 me-5" >2013</span>
-                    <span>
-                        <h5 class="fw-bold">
-                            Expand Indonesia Market
-                        </h5>
-                        <span>
-                            COOP Marketing Expand Indonesia Market and Greater South East Asia
-                            for Merchant Aggregator Loyalty Brand with Aldmic COOPN Digital.
-                        </span>
-                    </span>
-                </div>
-            </div>
-
-
         </div>
     </div>
     {{-- End of Banner Milestone --}}
-@endsection
+
+@endsectionloyl

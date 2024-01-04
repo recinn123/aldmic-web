@@ -181,22 +181,22 @@
                 <div class="row">
                     <div class="card-group text-center align-items-center">
                         <div class="card">
-                            <img  src="{{ asset('images/logo_paysgift.png') }}" class="card-img-top" alt="Logo PaysGift">
+                            <img  src="{{ asset('images/logo_paysgift.png') }}" class="card-img-top" alt="Logo PaysGift" data-banner-title="PaysGift" data-banner-description="PaysGift" data-banner-image="{{ asset('images/logo_paysgift.png') }}">
                         </div>
                         <div class="card">
-                            <img  src="{{ asset('images/LOGO-17.jpg') }}" class="card-img-top" alt="Logo Samsung">
+                            <img  src="{{ asset('images/samsung.png') }}" class="card-img-top" alt="Logo Samsung" data-banner-title="Samsung" data-banner-description="Samsung" data-banner-image="{{ asset('images/samsung.png') }}">
                         </div>
                         <div class="card">
-                            <img  src="{{ asset('images/LOGO-35.png') }}" class="card-img-top" alt="Logo Lazada">
+                            <img  src="{{ asset('images/LOGO-35.png') }}" class="card-img-top" alt="Logo Lazada" data-banner-title="Lazada" data-banner-description="Lazada" data-banner-image="{{ asset('images/LOGO-35.jpg') }}">
                         </div>
                         <div class="card">
-                            <img  src="{{ asset('images/LOGO-36.png') }}" class="card-img-top" alt="Logo OPPO">
+                            <img  src="{{ asset('images/LOGO-36.png') }}" class="card-img-top" alt="Logo OPPO" data-banner-title="OPPO" data-banner-description="OPPO" data-banner-image="{{ asset('images/LOGO-36.jpg') }}">
                         </div>
                         <div class="card">
-                            <img  src="{{ asset('images/LOGO-32.jpg') }}" class="card-img-top" alt="Logo DANA">
+                            <img  src="{{ asset('images/LOGO-32.png') }}" class="card-img-top" alt="Logo DANA" data-banner-title="DANA" data-banner-description="DANA" data-banner-image="{{ asset('images/LOGO-32.png') }}">
                         </div>
                         <div class="card">
-                            <img  src="{{ asset('images/LOGO-30.jpg') }}" class="card-img-top" alt="Logo Telkomsel">
+                            <img  src="{{ asset('images/telkomsel.png') }}" class="card-img-top" alt="Logo Telkomsel" data-banner-title="Telkomsel" data-banner-description="Telkomsel" data-banner-image="{{ asset('images/telkomsel.png') }}">
                         </div>  
                     </div>
                 </div>
@@ -209,8 +209,10 @@
     <div class="container-fluid">
         <div class="row ps-5 pe-5 justify-content-around bg-light pt-5 pb-5 shadow-sm">
             <div class="col-md-4 pt-5 col-sm-12">
-                <img class="mb-3" class="text-center" style="text-align: center" src="{{ asset('images/product/PG.png') }}" alt="" width="100%">
-            </div>
+                <div class="image-container">
+                    <img class="mb-3" class="text-center" style="text-align: center" src="{{ asset('images/product/PG.png') }}" alt="" width="100%">
+                </div>
+              </div>
             <div class="col-md-8 col-sm-12 pt-5">
                 <div class="row mb-3 align-items-left ">
                     <h1>
@@ -218,22 +220,53 @@
                     </h1>
                 </div>
                 <div class="row mb-3">
-                    <h1 class="" style="font-size: 3rem">
-                        lorem ipsum dolor sit amet
+                    <h1 class="banner-title" style="font-size: 3rem">
+                        <!-- Title will be dynamically updated -->
                     </h1>
                 </div>
                 <div class="row">
-                    <span style="text-align: justify">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                        qui officia deserunt mollit anim id est laborum.
+                    <span class="banner-description" style="text-align: justify">
+                        <!-- Description will be dynamically updated -->
                     </span>
                 </div>
             </div>
         </div>
     </div>
     {{-- End of Banner Paysgift --}}
+
 @endsection
+
+@push('script')
+<script>
+    $(document).ready(function () {
+
+    // Function to update Paysgift banner content based on the clicked card
+    function updateBannerContent(cardImage, title, description) {
+
+        $('.banner-logo-paysgift').attr('src', cardImage);
+        $('.banner-title').text(title);
+        $('.banner-description').text(description);
+    }
+
+      // Click event handling for each card
+        $('.card').click(function () {
+            var cardImage = $(this).find('img').attr('src');
+            var title = $(this).find('img').data('banner-title');
+            var lorem = 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, debitis natus temporibus minus rem laudantium vitae tempore consequuntur laborum excepturi quo perferendis voluptates, mollitia quos in doloremque unde dicta facilis cum voluptatum repellendus eligendi repellat maiores soluta? Eaque nisi omnis tenetur. Vero iste libero consectetur eligendi quam aperiam, aspernatur architecto.';
+            var description = lorem + $(this).find('img').data('banner-description');
+
+            // Update banner content
+            updateBannerContent(cardImage, title, description);
+        });
+        
+        $('.card').eq(0).click();
+    });
+</script>
+@endpush
+
+{{-- <div class="col-md-4 pt-5 col-sm-12">
+    image
+</div>
+<div class="col-md-8 col-sm-12 pt-5">
+    Banner title & description
+</div> --}}
