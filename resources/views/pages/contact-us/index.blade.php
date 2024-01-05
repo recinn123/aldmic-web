@@ -93,7 +93,7 @@
                 </div>
             </div>
 
-            <button type="submit" class="btn btn-info float-end me-5 ps-5 pe-5 text-white" style="padding-right: 200px">
+            <button type="submit" class="btn btn-info float-end me-5 ps-5 pe-5 text-white">
                 Send
             </button>
         </form>

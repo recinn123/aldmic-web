@@ -86,14 +86,267 @@
             <h2 class="fw-bolder text-center" style="font-weight: 900">
                 Milestone
             </h2>
-
-            <div class="pt-5 milestone-row d-flex justify-content-center">
-                <span class="fw-bolder fs-2 ms-5" >2005</span>
-                <span class="">divider</span>
-                <span>Founded COOPN Marketing</span>
-            </div>
         </div>
     </div>
+
+
+    <div class="container mt-5 timeline-container">
+        <ul class="timeline">
+            <li class="timeline-item-2-divider">
+                <div class="timeline-item-left-divider">
+                </div>
+                <div class="timeline-item-divider-2">
+                    <span></span>
+                </div>
+                <div class="timeline-item-right-divider">
+                </div>
+            </li>
+            <li class="timeline-item">
+                <div class="timeline-item-left-1">
+                    <h2 class="fw-bolder">2005</h2>
+                </div>
+                <div class="timeline-item-divider">
+                    <span></span>
+                </div>
+                <div class="timeline-item-right">
+                    <p class="mb-0 fw-bold fs-5">Founded COOPN Marketing</p>
+                </div>
+            </li>
+            <span class="text-center d-flex justify-content-center align-items-center pb-3" style="white-space: pre-line;font-size:14px;">
+                Founded COOPN Marketing as The First Merchant Aggregator To All
+                Digital Platforms with High Scalability
+            </span>
+            
+
+            <li class="timeline-item-2-divider">
+                <div class="timeline-item-left-divider">
+                </div>
+                <div class="timeline-item-divider-2">
+                    <span></span>
+                </div>
+                <div class="timeline-item-right-divider">
+                </div>
+            </li>
+            <li class="timeline-item">
+                <div class="timeline-item-left-2">
+                    <p class="mb-0 fw-bold fs-5">appointed as a KAKAO Gift Service</p>
+                </div>
+                <div class="timeline-item-divider">
+                    <span></span>
+                </div>
+                <div class="timeline-item-right">
+                    <h2 class="fw-bolder">2010</h2>
+                </div>
+            </li>
+            <span class="text-center d-flex justify-content-center align-items-center pb-3" style="white-space: pre-line;font-size:14px;">
+                Founded COOPN Marketing as The First Merchant Aggregator To All
+                Digital Platforms with High Scalability
+            </span>
+
+            <li class="timeline-item-2-divider">
+                <div class="timeline-item-left-divider">
+                </div>
+                <div class="timeline-item-divider-2">
+                    <span></span>
+                </div>
+                <div class="timeline-item-right-divider">
+                </div>
+            </li>
+            <li class="timeline-item">
+                <div class="timeline-item-left-1">
+                    <h2 class="fw-bolder">2013</h2>
+                </div>
+                <div class="timeline-item-divider">
+                    <span></span>
+                </div>
+                <div class="timeline-item-right">
+                    <p class="mb-0 fw-bold fs-5">Expand Indonesia Market</p>
+                </div>
+            </li>
+            <span class="text-center d-flex justify-content-center align-items-center pb-3" style="white-space: pre-line;font-size:14px;">
+                COOP Marketing Expand Indonesia Market and Greater South East Asia for
+                Merchant Aggregator Loyalty Brand with Aldmic COOPN Digital
+            </span>
+            
+            <li class="timeline-item-2-divider">
+                <div class="timeline-item-left-divider">
+                </div>
+                <div class="timeline-item-divider-2">
+                    <span></span>
+                </div>
+                <div class="timeline-item-right-divider">
+                </div>
+            </li>
+            <li class="timeline-item">
+                <div class="timeline-item-left-3">
+                    <p class="mb-0 fw-bold fs-5">Gateway of Kakaotalk Gift</p>
+                </div>
+                <div class="timeline-item-divider">
+                    <span></span>
+                </div>
+                <div class="timeline-item-right">
+                    <h2 class="fw-bolder">2014</h2>
+                </div>
+            </li>
+            <span class="text-center d-flex justify-content-center align-items-center pb-3" style="white-space: pre-line;font-size:14px;">
+                COOP Become an Executive Gateway of Kakaotalk Gift and Expand The Number of
+                Larger Partnership Across The World.
+                After Indonesia, COOPN Digital operate in Malaysia as a 2nd Country in South East
+                Asia with brand "CMAP".
+            </span>
+
+            <li class="timeline-item-2-divider">
+                <div class="timeline-item-left-divider">
+                </div>
+                <div class="timeline-item-divider-2">
+                    <span></span>
+                </div>
+                <div class="timeline-item-right-divider">
+                </div>
+            </li>
+            <li class="timeline-item">
+                <div class="timeline-item-left-1">
+                    <h2 class="fw-bolder">2015</h2>
+                </div>
+                <div class="timeline-item-divider">
+                    <span></span>
+                </div>
+                <div class="timeline-item-right">
+                    <p class="mb-0 fw-bold fs-5">support Samsung Galaxy Gift Indonesia</p>
+                </div>
+            </li>
+            <span class="text-center d-flex justify-content-center align-items-center pb-3" style="white-space: pre-line;font-size:14px;">
+                Aldmic COOPN Indonesia appoint to support Samsung Galaxy Gift Indonesia
+                as The Largest Loyalty Apps & Benefits in Indonesia
+            </span>
+
+            <li class="timeline-item-2-divider">
+                <div class="timeline-item-left-divider">
+                </div>
+                <div class="timeline-item-divider-2">
+                    <span></span>
+                </div>
+                <div class="timeline-item-right-divider">
+                </div>
+            </li>
+            <li class="timeline-item">
+                <div class="timeline-item-left-4">
+                    <p class="mb-0 fw-bold fs-5">10.000.000 voucher Redemptions</p>
+                </div>
+                <div class="timeline-item-divider">
+                    <span></span>
+                </div>
+                <div class="timeline-item-right">
+                    <h2 class="fw-bolder">2018</h2>
+                </div>
+            </li>
+            <span class="text-center d-flex justify-content-center align-items-center pb-3" style="white-space: pre-line;font-size:14px;">
+                COOPN Digital Have been Processed 10.000.000 voucher Redemptions
+                Across The World
+            </span>
+            
+            <li class="timeline-item-2-divider">
+                <div class="timeline-item-left-divider">
+                </div>
+                <div class="timeline-item-divider-2">
+                    <span></span>
+                </div>
+                <div class="timeline-item-right-divider">
+                </div>
+            </li>
+            <li class="timeline-item">
+                <div class="timeline-item-left-1">
+                    <h2 class="fw-bolder">2020</h2>
+                </div>
+                <div class="timeline-item-divider">
+                    <span></span>
+                </div>
+                <div class="timeline-item-right">
+                    <p class="mb-0 fw-bold fs-5">Expand South East Asia Countries</p>
+                </div>
+            </li>
+            <span class="text-center d-flex justify-content-center align-items-center pb-3" style="white-space: pre-line;font-size:14px;">
+                Founded COOPN Global for Singapore and Hong Kong Market to Expand
+                Another South East Asia Countries.
+            </span>
+               
+            <li class="timeline-item-2-divider">
+                <div class="timeline-item-left-divider">
+                </div>
+                <div class="timeline-item-divider-2">
+                    <span></span>
+                </div>
+                <div class="timeline-item-right-divider">
+                </div>
+            </li>
+            <li class="timeline-item">
+                <div class="timeline-item-left-5">
+                    <p class="mb-0 fw-bold fs-5">Shareholders for Aldmic Technology</p>
+                </div>
+                <div class="timeline-item-divider">
+                    <span></span>
+                </div>
+                <div class="timeline-item-right">
+                    <h2 class="fw-bolder">2021</h2>
+                </div>
+            </li>
+            <span class="text-center d-flex justify-content-center align-items-center pb-3" style="white-space: pre-line;font-size:14px;">
+                Acquire Majority Shareholders for Aldmic Technology as a Special Merchant
+                Aggregator. Built Joint Venture with COOP Marketing, The Leading
+                Merchant Aggregator in South Korea.
+            </span>
+            
+            <li class="timeline-item-2-divider">
+                <div class="timeline-item-left-divider">
+                </div>
+                <div class="timeline-item-divider-2">
+                    <span></span>
+                </div>
+                <div class="timeline-item-right-divider">
+                </div>
+            </li>
+            <li class="timeline-item">
+                <div class="timeline-item-left-1">
+                    <h2 class="fw-bolder">2022</h2>
+                </div>
+                <div class="timeline-item-divider">
+                    <span></span>
+                </div>
+                <div class="timeline-item-right">
+                    <p class="mb-0 fs-5 fw-bold">Expand SuperApp across with Air Asia.</p>
+                </div>
+            </li>
+            <span class="text-center d-flex justify-content-center align-items-center pb-3" style="white-space: pre-line;font-size:14px;">
+                Product Expand for Digital SuperApp Merchant across Asia Pacific with Air
+                Asia.
+            </span>
+        </ul>
+
+    </div>
+      
     {{-- End of Banner Milestone --}}
 
-@endsectionloyl
+@endsection
+
+
+{{-- 
+<div class="container mt-5 timeline-container">
+    <ul class="timeline">
+        <li class="timeline-item">
+            <div class="timeline-item-left-1">
+                <h2 class="fw-bolder">2005</h2>
+            </div>
+            <div class="timeline-item-divider">
+                <span></span>
+            </div>
+            <div class="timeline-item-right">
+                <p class="mb-0 fw-bold fs-5">Founded COOPN Marketing</p>
+            </div>
+        </li>
+        <span class="text-center d-flex justify-content-center align-items-center" style="white-space: pre-line;font-size:14px;">
+            Founded COOPN Marketing as The First Merchant Aggregator To All
+            Digital Platforms with High Scalability
+        </span>
+    </ul>
+</div>
+   --}}
