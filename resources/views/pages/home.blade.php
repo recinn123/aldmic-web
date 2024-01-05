@@ -9,7 +9,7 @@
 @section('content')
 
     {{-- Header Banner --}}
-    <div class="mt-5 container"
+    <div class="mt-5 container animated-background"
     style="
             background-image: url('{{ asset('images/background.png') }}');
             background-size: auto;
@@ -208,7 +208,7 @@
                 We gift best
             </h1>
 
-            <div class="row mb-5">
+            <div class="row mb-5 d-flex justify-content-center align-items-center">
                 <div class="col-md-4 text-center">
                     <img src="{{ asset('images/home/property_home_1.png') }}" alt="">
                     <h3 class="fw-bold mb-2 mt-3">Solution</h3>
