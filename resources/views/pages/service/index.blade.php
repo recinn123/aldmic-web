@@ -99,24 +99,6 @@
                     <h1 class="text-info fw-bold">
                         DAIKIN.
                     </h1>
-                    {{-- <span style="text-align: justify">
-                        Daikin run an end-user and installer program to give all the benefits
-                        to customers in order to get more sales.
-                        End user will get Gopay Instant Reward and Lucky Draw Coupon
-                        Installer will get Gopay Instant Reward after installation claim
-                        approved
-                        <br>
-                        <br>
-                        <span style="display: block;">
-                            https://inverteria.daikin.co.id/
-    
-                            <u style="display: block">
-                                DAIKIN INVERTERIA "MAKIN HEMAT, MAKIN MERIAH
-                                HADIAHNYA" - PENGUNDIAN PERIODE 1
-                            </u>
-                        </span>
-                    </span> --}}
-    
                     <div style="text-align: justify">
                         <div class="text-container">
                             <p>
@@ -146,7 +128,7 @@
                     <h5>
                         BRAND CAMPAIGN
                     </h5>
-                    <h1 class="text-info fw-bold">
+                    <h1 class="text-info">
                         ACTIVATION.
                     </h1>
                     <span style="text-align: justify">
@@ -170,7 +152,7 @@
                     <h5>
                         BRAND CAMPAIGN
                     </h5>
-                    <h1 class="text-info fw-bold">
+                    <h1 class="text-info">
                         ACTIVATION.
                     </h1>
                     <span style="text-align: justify">
@@ -186,7 +168,7 @@
                     <h5>
                         BRAND CAMPAIGN
                     </h5>
-                    <h1 class="text-info fw-bold">
+                    <h1 class="text-info">
                         ACTIVATION.
                     </h1>
                     <span style="text-align: justify">

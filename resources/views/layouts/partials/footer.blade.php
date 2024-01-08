@@ -8,7 +8,9 @@
                 Reach Out Now and Join Us
             </h1>
 
-            <a class="btn btn-primary mb-5 ps-4 pe-4 pt-2 pb-2" href="{{ route('contact-us.index') }}">Contact us!</a>
+            <a class="btn btn-info mb-5 ps-4 pe-4 pt-2 pb-2 button-contact-us" href="{{ route('contact-us.index') }}">
+                <span>Contact us!</span>
+            </a>
         </div>
     </div>
 </div>
