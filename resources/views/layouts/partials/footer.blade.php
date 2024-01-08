@@ -51,9 +51,9 @@
                     <a href="{{ route('about.index') }}"><h5 class="pb-2 text-info fw-bold">About</h5></a>  
                     <a href="#">Privacy Policy</a><br>
                     <a href="#">Terms & Conditions</a><br>
-                    <a href="#">News</a><br>
+                    <a href="{{ route('about.news') }}">News</a><br>
                     <a href="#">Career</a><br>
-                    <a href="#">FAQ</a><br>
+                    <a href="{{ route('about.faq') }}">FAQ</a><br>
                 </div>
                 <div class="col-md-4">
                     <a href="{{ route('service.index') }}"><h5 class="pb-2 text-info fw-bold">Service</h5></a>  

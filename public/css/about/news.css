@@ -1,0 +1,23 @@
+.line-heading {
+    position: relative;
+    display: inline-block;
+}
+
+.line-heading::before,
+.line-heading::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 150px;  
+    height: 7px;  
+    background-color: #17a2b8;
+    border-radius: 5px;
+}
+
+.line-heading::before {
+    left: -50px; transform: translateX(-100%);
+}
+
+.line-heading::after {
+    right: -50px; transform: translateX(100%);
+}
