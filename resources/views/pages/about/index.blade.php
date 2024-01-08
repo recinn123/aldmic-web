@@ -90,7 +90,7 @@
     </div>
 
 
-    <div class="container mt-5 timeline-container">
+    <div class="container timeline-container">
         <ul class="timeline">
             <li class="timeline-item-2-divider">
                 <div class="timeline-item-left-divider">
