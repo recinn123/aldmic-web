@@ -132,3 +132,45 @@ footer .col-md-4 a h5:hover {
 .dropdown-menu {
     border-radius: 0; /* Remove rounded corners */
 }
+
+.button-contact-us {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    overflow: hidden; /* Ensure the underline stays hidden */
+    transition: color 0.3s;
+}
+
+.button-contact-us span {
+    display: inline-block;
+    position: relative;
+    transition: transform 0.3s;
+}
+
+.button-contact-us span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #fff; /* Change the color of the underline */
+    transition: width 0.3s;
+}
+
+.button-contact-us:hover {
+    color: #fff;
+}
+
+.button-contact-us:hover span::after {
+    width: 100%;
+}
+
+.button-contact-us:hover span {
+    transform: scale(1.2); /* Change the scale factor to control the size increase */
+}
+
+body {
+    padding-top: 80px; 
+}
