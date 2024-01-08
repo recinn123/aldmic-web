@@ -82,7 +82,7 @@
 .timeline-item-divider span {
     flex-grow: 1; /* Take up all available space */
     background-color: #000;
-    padding: 5px;
+    padding: 8px;
     border: 1px solid #000;
     border-radius: 12px;
     text-align: center;
@@ -105,14 +105,13 @@
 }
 
 .timeline-item-divider-2 span {
-    background-color: #000;
     padding: 0.75px;
-    border: 1px solid #000;
+    width: 100%;
     border-radius: 8px;
     text-align: center;
     position: relative;
     z-index: 1;
-    height: 100px;
+    height: 150px;
 }
 
 .timeline-item-divider-2::after {
@@ -121,7 +120,8 @@
     top: 0;
     bottom: 0;
     left: 50%; /* Adjust the position as needed */
-    width: 1px; /* Adjust the width as needed */
+    width: 3px; /* Adjust the width as needed */
     background-color: #000;
     z-index: 0;
+    border-radius: 12px;
 }

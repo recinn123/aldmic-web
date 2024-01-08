@@ -95,7 +95,7 @@
             <li class="timeline-item-2-divider">
                 <div class="timeline-item-left-divider">
                 </div>
-                <div class="timeline-item-divider-2">
+                <div class="timeline-item-divider-2 pt-4">
                     <span></span>
                 </div>
                 <div class="timeline-item-right-divider">
@@ -121,7 +121,7 @@
             <li class="timeline-item-2-divider">
                 <div class="timeline-item-left-divider">
                 </div>
-                <div class="timeline-item-divider-2">
+                <div class="timeline-item-divider-2 pt-4">
                     <span></span>
                 </div>
                 <div class="timeline-item-right-divider">
@@ -146,7 +146,7 @@
             <li class="timeline-item-2-divider">
                 <div class="timeline-item-left-divider">
                 </div>
-                <div class="timeline-item-divider-2">
+                <div class="timeline-item-divider-2 pt-4">
                     <span></span>
                 </div>
                 <div class="timeline-item-right-divider">
@@ -171,7 +171,7 @@
             <li class="timeline-item-2-divider">
                 <div class="timeline-item-left-divider">
                 </div>
-                <div class="timeline-item-divider-2">
+                <div class="timeline-item-divider-2 pt-4">
                     <span></span>
                 </div>
                 <div class="timeline-item-right-divider">
@@ -198,7 +198,7 @@
             <li class="timeline-item-2-divider">
                 <div class="timeline-item-left-divider">
                 </div>
-                <div class="timeline-item-divider-2">
+                <div class="timeline-item-divider-2 pt-4">
                     <span></span>
                 </div>
                 <div class="timeline-item-right-divider">
@@ -223,7 +223,7 @@
             <li class="timeline-item-2-divider">
                 <div class="timeline-item-left-divider">
                 </div>
-                <div class="timeline-item-divider-2">
+                <div class="timeline-item-divider-2 pt-4">
                     <span></span>
                 </div>
                 <div class="timeline-item-right-divider">
@@ -248,7 +248,7 @@
             <li class="timeline-item-2-divider">
                 <div class="timeline-item-left-divider">
                 </div>
-                <div class="timeline-item-divider-2">
+                <div class="timeline-item-divider-2 pt-4">
                     <span></span>
                 </div>
                 <div class="timeline-item-right-divider">
@@ -273,7 +273,7 @@
             <li class="timeline-item-2-divider">
                 <div class="timeline-item-left-divider">
                 </div>
-                <div class="timeline-item-divider-2">
+                <div class="timeline-item-divider-2 pt-4">
                     <span></span>
                 </div>
                 <div class="timeline-item-right-divider">
@@ -299,7 +299,7 @@
             <li class="timeline-item-2-divider">
                 <div class="timeline-item-left-divider">
                 </div>
-                <div class="timeline-item-divider-2">
+                <div class="timeline-item-divider-2 pt-4">
                     <span></span>
                 </div>
                 <div class="timeline-item-right-divider">
@@ -327,26 +327,3 @@
     {{-- End of Banner Milestone --}}
 
 @endsection
-
-
-{{-- 
-<div class="container mt-5 timeline-container">
-    <ul class="timeline">
-        <li class="timeline-item">
-            <div class="timeline-item-left-1">
-                <h2 class="fw-bolder">2005</h2>
-            </div>
-            <div class="timeline-item-divider">
-                <span></span>
-            </div>
-            <div class="timeline-item-right">
-                <p class="mb-0 fw-bold fs-5">Founded COOPN Marketing</p>
-            </div>
-        </li>
-        <span class="text-center d-flex justify-content-center align-items-center" style="white-space: pre-line;font-size:14px;">
-            Founded COOPN Marketing as The First Merchant Aggregator To All
-            Digital Platforms with High Scalability
-        </span>
-    </ul>
-</div>
-   --}}
