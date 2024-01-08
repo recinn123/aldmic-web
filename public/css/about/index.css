@@ -10,18 +10,18 @@
 }
 
 .timeline-container::-webkit-scrollbar-thumb {
-    background-color: transparent; /* Set the thumb color to transparent */
-    border: none; /* Remove the border */
+    background-color: transparent;
+    border: none; 
 }
 
 .timeline-container::-webkit-scrollbar-track {
-    background-color: transparent; /* Set the track color to transparent */
+    background-color: transparent; 
 }
 
 /* Style for Firefox */
 .timeline-container {
-    scrollbar-color: transparent transparent; /* thumb and track color */
-    scrollbar-width: thin; /* Adjust the width as needed */
+    scrollbar-color: transparent transparent;
+    scrollbar-width: thin;
 }
 
 .timeline {
@@ -80,7 +80,7 @@
 }
 
 .timeline-item-divider span {
-    flex-grow: 1; /* Take up all available space */
+    flex-grow: 1; 
     background-color: #000;
     padding: 8px;
     border: 1px solid #000;
@@ -90,7 +90,7 @@
 
 .timeline-item-divider::before {
     content: "";
-    flex-grow: 1; /* Take up all available space */
+    flex-grow: 1; 
     height: 2px;
     background-color: #000;
 }
@@ -119,8 +119,8 @@
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 50%; /* Adjust the position as needed */
-    width: 3px; /* Adjust the width as needed */
+    left: 50%;
+    width: 3px;
     background-color: #000;
     z-index: 0;
     border-radius: 12px;

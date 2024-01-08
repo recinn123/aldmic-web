@@ -19,6 +19,17 @@ Route::prefix('about')->group(function () {
     Route::get('/', function () {
         return view('pages.about.index');
     })->name('about.index');
+
+    Route::get('/news', function () {
+        return view('pages.about.news');
+    })->name('about.news');
+
+    
+    Route::get('/faq', function () {
+        return view('pages.about.faq');
+    })->name('about.faq');
+
+    
 });
 
 Route::get('/product', function() {
