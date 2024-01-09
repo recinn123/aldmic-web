@@ -34,7 +34,12 @@
 @endpush
 
 @section('content')
-    <div class="container pt-5 pb-5">
+    <div class="container pt-5 pb-5"
+    style="
+        background-image: url('{{ asset('images/contact-us/background.png') }}');
+        background-size: auto 200px;
+        background-position: 90% 5%;
+        background-repeat: no-repeat;">
         <div class="text-center mb-5 text-container">
             <h1 class="fw-bold" style="font-size: 5rem">
                 <span class="text-info">Apply Now</span> and Join Us
@@ -45,7 +50,9 @@
                  Transformation</span> with COOPN Digital
             </h2>
         </div>
+    </div>
 
+    <div class="container pb-5">
         <form action="" method="post">
             <div class="row mb-4">
                 <div class="col-md-12 bg-light shadow-sm pt-1 pb-1 mb-4 ps-5 ms-5" style="width: 91%">
@@ -77,7 +84,7 @@
                         </div>
                     </div>
                 </div>
-
+    
                 <div class="col-md-12 mb-4">
                     <div class="row">
                         <div class="col-md-6 input-left ps-5">
@@ -89,12 +96,12 @@
                         </div>
                     </div>
                 </div>
-
+    
                 <div class="col-md-12">
                     <textarea class="text-area shadow-sm bg-light ps-5" placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
                 </div>
             </div>
-
+    
             <button type="submit" class="btn btn-info float-end me-5 ps-5 pe-5 text-white">
                 Send
             </button>
