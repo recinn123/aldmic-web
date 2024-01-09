@@ -320,7 +320,24 @@
                 Product Expand for Digital SuperApp Merchant across Asia Pacific with Air
                 Asia.
             </span>
+            <li class="timeline-item">
+                <div class="timeline-item-left-6">
+                    <span></span>
+                </div>
+                <div class="">
+                    <h2 class="fw-bolder">
+                        TODAY
+                    </h2>
+                </div>
+                <div class="timeline-item-right">
+                    <span></span>
+                </div>
+            </li>
+            <span class="text-center d-flex justify-content-center align-items-center pb-5 fw-bolder" style="white-space: pre-line;font-size:20px;">
+                we get 600 ++ more accounts And ++ 30 Channels
+            </span>
         </ul>
+
 
     </div>
       

@@ -52,7 +52,7 @@
                     <a href="#">Privacy Policy</a><br>
                     <a href="#">Terms & Conditions</a><br>
                     <a href="{{ route('about.news') }}">News</a><br>
-                    <a href="#">Career</a><br>
+                    <a href="{{ route('about.career') }}">Career</a><br>
                     <a href="{{ route('about.faq') }}">FAQ</a><br>
                 </div>
                 <div class="col-md-4">
