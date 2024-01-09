@@ -46,7 +46,7 @@
     </div>
     <div class="container d-flex justify-content-center mb-5">
         <div class="row">
-            <img src="{{ asset('images/about/image-about.png') }}" alt="" width="50%" height="100px">
+            <img src="{{ asset('images/about/image-about.png') }}" alt="" width="100%" height="100px">
         </div>
     </div>
     {{-- End of Banner Why Aldmic --}}
