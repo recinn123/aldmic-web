@@ -28,7 +28,7 @@
         
         {{-- Button Find About us --}}
         <div class="mt-5 mb-5 text-center">
-            <a href="{{ route('about.index') }}" class="btn btn-outline-info rounded-5 ps-3 pe-3">
+            <a href="{{ route('about.index') }}" class="btn btn-outline-info rounded-5 ps-4 pe-4">
                 Find About us <i class="bi bi-arrow-right"></i>
             </a>
         </div>
