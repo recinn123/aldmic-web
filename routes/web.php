@@ -24,6 +24,9 @@ Route::prefix('about')->group(function () {
         return view('pages.about.news');
     })->name('about.news');
 
+    Route::get('/career', function () {
+        return view('pages.about.career');
+    })->name('about.career');
     
     Route::get('/faq', function () {
         return view('pages.about.faq');

@@ -3,7 +3,6 @@
     overflow-y: auto;
 }
 
-
 /* Style for Webkit browsers (Chrome, Safari) */
 .timeline-container::-webkit-scrollbar {
     width: 12px; /* Adjust the width as needed */
@@ -67,6 +66,10 @@
 
 .timeline-item-left-5 {
     margin-left: 175px;
+}
+
+.timeline-item-left-6 {
+    margin-left: 520px;
 }
 
 /* .timeline-item-left, */
