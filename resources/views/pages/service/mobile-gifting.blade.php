@@ -161,7 +161,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-5 col-sm-12 align-items-center text-center mb-5">
+            <div class="col-md-5 col-sm-12 d-flex justify-content-center align-items-center text-center mb-5">
                 <img class="mb-3" src="{{ asset('images/product/evoucher_banner_1.png') }}" alt="">
             </div>
 
