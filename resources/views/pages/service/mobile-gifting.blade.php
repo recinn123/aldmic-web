@@ -201,7 +201,7 @@
                         <h4 class="text-info fw-bold">
                             Visual Based
                         </h4>
-                        <p class="text-secondary">
+                        <p class=" text-performance">
                             Make it easy with an interface with the best visualization to monitor all
                             performance by design & graphics.
                         </p>
@@ -213,7 +213,7 @@
                         <h4 class="text-info fw-bold">
                             Performance Indicator
                         </h4>
-                        <p class="text-secondary">
+                        <p class=" text-performance">
                             You can personalize the performance indicator instead of your KPI as a part
                             of the business process in real time.
                         </p>
@@ -225,7 +225,7 @@
                         <h4 class="text-info fw-bold">
                             Revenue Dashboard
                         </h4>
-                        <p class="text-secondary">
+                        <p class=" text-performance">
                             Ensure your Business Inquiries to make the other conversion, see your
                             achievement with revenue dashboard directly.
                         </p>
@@ -237,7 +237,7 @@
                         <h4 class="text-info fw-bold">
                             Real Time & Actual Based
                         </h4>
-                        <p class="text-secondary">
+                        <p class=" text-performance">
                             Monitor your performance easily with real time manage service for brand
                             and user.
                         </p>

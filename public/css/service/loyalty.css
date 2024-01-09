@@ -1,20 +1,20 @@
 .feature-item {
     font-size: 1.5rem;
     padding: 20px;
-    border-bottom: 3px solid transparent; /* Initial transparent border-bottom */
+    border-bottom: 3px solid transparent;
     transition: 0.3s ease-in-out;
   }
 
 .feature-item:hover {
     font-weight: bold;
-    border-bottom-width: 5px; /* Increase border-bottom width on hover */
+    border-bottom-width: 5px; 
 }
 
 
 .quote {
     display: none;
     opacity: 0;
-    transform: translateY(20px); /* Initial translateY value for fade-up effect */
+    transform: translateY(20px); 
     transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
   }
 
@@ -29,8 +29,7 @@
 
 .show-more-link {
     text-decoration: none;
-    color: #6c757d; /* Set the default color */
-    transition: color 1s ease-in-out; /* Add transition for color change */
+    color: #6c757d;
 }
 
 .show-more-link::before {
@@ -40,14 +39,18 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #6c757d; /* Match the text-secondary color */
-    transition: width 1s ease-in-out; /* Add transition for width change */
+    background-color: #6c757d; 
+    transition: width 1.5s ease-in-out;
+    transform-origin: left;
+    transition-delay: 1s; 
 }
 
 .show-more-link:hover {
-    color: #6c757d; /* Change the color on hover */
-    text-decoration: underline; /* Add underline on hover */
+    color: #6c757d; 
+    text-decoration: underline;
 }
+
 .show-more-link:hover::before {
-    width: 100%; /* Expand the width on hover */
-  }
+    width: 100%;
+    transform: scaleX(1); 
+}

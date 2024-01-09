@@ -1,85 +1,6 @@
-
-/* Regular */
-@font-face {
-    font-family: 'Lato-Regular';
-    src: url('/fonts/Lato-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* Bold */
-@font-face {
-    font-family: 'Lato-Bold';
-    src: url('/fonts/Lato-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-/* Italic */
-@font-face {
-    font-family: 'Lato-Italic';
-    src: url('/fonts/Lato-Italic.ttf') format('truetype');
-    font-style: italic;
-}
-
-/* Bold Italic */
-@font-face {
-    font-family: 'Lato-BoldItalic';
-    src: url('/fonts/Lato-BoldItalic.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
-}
-
-/* Black */
-@font-face {
-    font-family: 'Lato-Black';
-    src: url('/fonts/Lato-Black.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-}
-
-/* Black Italic */
-@font-face {
-    font-family: 'Lato-BlackItalic';
-    src: url('/fonts/Lato-BlackItalic.ttf') format('truetype');
-    font-weight: 900;
-    font-style: italic;
-}
-
-/* Thin */
-@font-face {
-    font-family: 'Lato-Thin';
-    src: url('/fonts/Lato-Thin.ttf') format('truetype');
-    font-weight: 100;
-    font-style: normal;
-}
-
-/* Thin Italic */
-@font-face {
-    font-family: 'Lato-ThinItalic';
-    src: url('/fonts/Lato-ThinItalic.ttf') format('truetype');
-    font-weight: 100;
-    font-style: italic;
-}
-
-/* Light */
-@font-face {
-    font-family: 'Lato-Light';
-    src: url('/fonts/Lato-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-}
-
-/* Light Italic */
-@font-face {
-    font-family: 'Lato-LightItalic';
-    src: url('/fonts/Lato-LightItalic.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic;
-}
-
 body {
     font-family: 'Lato', sans-serif;
+    padding-top: 80px; 
 }
 
 .banner-background {
@@ -169,8 +90,4 @@ footer .col-md-4 a h5:hover {
 
 .button-contact-us:hover span {
     transform: scale(1.2); /* Change the scale factor to control the size increase */
-}
-
-body {
-    padding-top: 80px; 
 }
