@@ -26,3 +26,11 @@
 .img-infrastructure img:hover {
     opacity: 1; /* Set opacity to 1 on hover */
 }
+
+.btn-outline-info:hover {
+    color: white; /* Change text color to white on hover */
+}
+
+.btn-outline-info:hover i {
+    color: white; /* Change icon color to white on hover */
+}
