@@ -9,7 +9,7 @@
 @section('content')
 
     {{-- Banner Why Aldmic --}}
-    <div class=" container"
+    <div class="container mb-3"
     style="background-image: url('{{ asset('images/background.png') }}');
             background-size: auto;
             background-position: center 45%;">
@@ -43,8 +43,10 @@
             </p>
         </div>
         
+    </div>
+    <div class="container d-flex justify-content-center mb-5">
         <div class="row">
-            {{-- Table  & Images --}}
+            <img src="{{ asset('images/about/image-about.png') }}" alt="" width="50%" height="100px">
         </div>
     </div>
     {{-- End of Banner Why Aldmic --}}
