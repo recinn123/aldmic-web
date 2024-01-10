@@ -90,8 +90,8 @@
     </div>
 
 
-    <div class="container timeline-container">
-        <ul class="timeline">
+    <div class="container timeline-container d-flex align-items-center">
+        {{-- <ul class="timeline">
             <li class="timeline-item-2-divider">
                 <div class="timeline-item-left-divider">
                 </div>
@@ -336,7 +336,8 @@
             <span class="text-center d-flex justify-content-center align-items-center pb-5 fw-bolder" style="white-space: pre-line;font-size:20px;">
                 we get 600 ++ more accounts And ++ 30 Channels
             </span>
-        </ul>
+        </ul> --}}
+        <img src="{{ asset('images/about/milestone.png') }}" alt="" class="img-fluid">
     </div>
       
     {{-- End of Banner Milestone --}}

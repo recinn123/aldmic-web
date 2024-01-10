@@ -1,6 +1,12 @@
 .timeline-container {
     max-height: 600px;
     overflow-y: auto;
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: transparent transparent; /* For Firefox */
+
+    @media (max-width: 767px) {
+        max-height: 200px; /* Remove the maximum height on small devices */
+    }
 }
 
 /* Style for Webkit browsers (Chrome, Safari) */
