@@ -66,7 +66,7 @@
             Get your seamless Platform to distribute all benefits in Your Hand.
         </p>
 
-        <img src="{{ asset('images/product/mouse_icon.png') }}" alt="">
+        <img src="{{ asset('images/product/mouse_icon.png') }}" alt="" class=" img-fluid">
     </div>
     {{-- End of Banner Mobile Gifting --}}
 
@@ -79,7 +79,7 @@
         <div class="row d-flex justify-content-center align-items-center">
 
             <div class="col-md-3 text-center mb-5">
-                <img class="mb-3" src="{{ asset('images/service/mobile-gifting/gift_card_feature_1.png') }}" alt="">
+                <img class="mb-3 img-fluid" src="{{ asset('images/service/mobile-gifting/gift_card_feature_1.png') }}" alt="">
                 <div style="margin-left: 3rem; margin-right:3rem;">
                     <p>
                         <span class="fw-bold">Barcodes:</span>
@@ -91,7 +91,7 @@
             </div>
 
             <div class="col-md-3 text-center mb-5">
-                <img class="mb-3" src="{{ asset('images/service/mobile-gifting/gift_card_feature_2.png') }}" alt="">
+                <img class="mb-3 img-fluid" src="{{ asset('images/service/mobile-gifting/gift_card_feature_2.png') }}" alt="">
                 <div style="margin-left: 3rem; margin-right:3rem;">
                     <p>
                         <span class="fw-bold">Barcodes:</span>
@@ -103,7 +103,7 @@
             </div>
 
             <div class="col-md-3 text-center mb-5">
-                <img class="mb-3" src="{{ asset('images/service/mobile-gifting/gift_card_feature_3.png') }}" alt="">
+                <img class="mb-3 img-fluid" src="{{ asset('images/service/mobile-gifting/gift_card_feature_3.png') }}" alt="">
                 <div style="margin-left: 3rem; margin-right:3rem;">
                     <p>
                         <span class="fw-bold">On Demand Service:</span>
@@ -116,7 +116,7 @@
             </div>
             
             <div class="col-md-3 text-center mb-5">
-                <img class="mb-3" src="{{ asset('images/service/mobile-gifting/gift_card_feature_4.png') }}" alt="">
+                <img class="mb-3 img-fluid" src="{{ asset('images/service/mobile-gifting/gift_card_feature_4.png') }}" alt="">
                 <div style="margin-left: 3rem; margin-right:3rem;">
                     <p>
                         <span class="fw-bold">High Encrypt Data Security System:</span>
@@ -162,7 +162,7 @@
                 </div>
             </div>
             <div class="col-md-5 col-sm-12 d-flex justify-content-center align-items-center text-center mb-5">
-                <img class="mb-3" src="{{ asset('images/product/evoucher_banner_1.png') }}" alt="">
+                <img class="mb-3 img-fluid" src="{{ asset('images/product/evoucher_banner_1.png') }}" alt="">
             </div>
 
             <div class="row text-center fw-bold">
@@ -192,7 +192,7 @@
     <div class="container-fluid">
         <div class="row ps-5 pe-5 justify-content-evenly bg-light pt-5 pb-5 shadow-sm">
             <div class="col-md-6 col-sm-12 align-items-center text-center justify-content-center">
-                <img class="" src="{{ asset('images/service/mobile-gifting/image_statistic.png') }}" alt="" width="50%">
+                <img class=" img-fluid  " src="{{ asset('images/service/mobile-gifting/image_statistic.png') }}" alt="" width="50%">
             </div>
 
             <div class="col-md-6 col-sm-12" style="text-align: justify">

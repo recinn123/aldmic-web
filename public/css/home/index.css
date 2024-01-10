@@ -1,7 +1,3 @@
-.animated-background {
-    animation: fadeInBackground 2s ease-out; /* You can adjust the duration and timing function as needed */
-}
-
 @keyframes fadeInBackground {
     from {
         opacity: 0;
@@ -10,6 +6,20 @@
         opacity: 1;
     }
 }
+
+@media (max-width: 767px) {
+    .logo-img {
+        margin-bottom: 15px;
+    }
+    .custom-col {
+        margin-bottom: 15px;
+    }
+}
+
+.animated-background {
+    animation: fadeInBackground 2s ease-out; /* You can adjust the duration and timing function as needed */
+}
+
 
 .logo-img {
     width: 100%; /* Make the image take up the full width of the column */

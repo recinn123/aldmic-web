@@ -11,9 +11,9 @@
     {{-- Banner Why Aldmic --}}
     <div class="container mb-3"
     style="background-image: url('{{ asset('images/background.png') }}');
-            background-size: auto;
+            background-size: cover;
             background-position: center 45%;">
-        <h1 class="fw-bolder pt-5 mb-1 text-center text-secondary" style="font-size: 3rem">
+        <h1 class="fw-bolder pt-5 mb-1 text-center text-secondary" style="font-size: 2rem">
             Why Aldmic ?
         </h1>
 
@@ -26,51 +26,49 @@
         </div>
 
         <div class="row" style="text-align: justify">
-            <p class="mb-4">
-                Aldmic COOPN Digital is a Merchant Aggregator company that leads the market through a differentiated platform to enable business
-                improvement for all customers, partners and stakeholders. Seamless experience on demand is a key to creating an engaging and rewarding
-                merchant ecosystem to create the best solutions for all.
+            <p class="mb-3">
+                Aldmic COOPN Digital is a Merchant Aggregator company that leads the market through a differentiated platform
+                to enable business improvement for all customers, partners, and stakeholders. Seamless experience on demand is
+                a key to creating an engaging and rewarding merchant ecosystem to create the best solutions for all.
             </p>
-            <p class="mb-4">
-                Founded in 2005, Aldmic COOPN always understood how important digital transformation and disruption were and witnessed how business
-                processes began to face challenges at a fast pace to developing and managing effective loyalty & rewards programs in the all marketing
-                platform. Develop and manage effective loyalty & rewards programs not only from the ecosystem, but also infrastructure development
+            <p class="mb-3">
+                Founded in 2005, Aldmic COOPN always understood how important digital transformation and disruption were and
+                witnessed how business processes began to face challenges at a fast pace to developing and managing effective
+                loyalty & rewards programs in the all marketing platform. Develop and manage effective loyalty & rewards programs
+                not only from the ecosystem but also infrastructure development.
             </p>
-            <p class="mb-4">
-                Aldmic COOPN we believe good infrastructure is one of the important things in a sustainable business process with a real time and high
-                security in all digital platform. With loyalty rewards programs and good infrastructure, Aldmic COOPN ensure the best customer satisfaction
-                to make sustainable profitability and lead the market of merchant aggregator!
+            <p class="mb-3">
+                Aldmic COOPN we believe good infrastructure is one of the important things in a sustainable business process
+                with real-time and high security in all digital platforms. With loyalty rewards programs and good infrastructure,
+                Aldmic COOPN ensures the best customer satisfaction to make sustainable profitability and lead the market of merchant aggregator!
             </p>
-        </div>
-        
+        </div>    
     </div>
+
     <div class="container d-flex justify-content-center mb-5">
         <div class="row">
-            <img src="{{ asset('images/about/image-about.png') }}" alt="" width="100%" height="100px">
+            <img src="{{ asset('images/about/image-about.png') }}" alt="" width="100%" height="100px" class="img-fluid">
         </div>
     </div>
     {{-- End of Banner Why Aldmic --}}
 
-    {{-- Banner vision & mission --}}
-    <div class="container-fluid"  >
+   {{-- Banner vision & mission --}}
+    <div class="container-fluid">
         <div class="row bg-light shadow-sm mb-5">
             <div class="col-md-6">
-                <h1 class=" mt-3 pb-3 text-left fw-bold ms-5" style="font-size: 5rem;font-weight: 900">
+                <h1 class="mt-3 pb-3 text-left fw-bold ms-md-5" style="font-size: 3rem;font-weight: 900">
                     Vision
                 </h1>
-    
-                <h2 class="ms-5 5" style="font-size: 50px">
-                    The Most Leading Merchant
-                    Aggregator with The Best
-                    Experience and Seamless For
-                    Sustainable Business
+
+                <h2 class="ms-md-5" style="font-size: 2rem">
+                    The Most Leading Merchant Aggregator with The Best Experience and Seamless For Sustainable Business
                 </h2>
             </div>
             <div class="col-md-6">
-                <h1 class=" mt-3 pb-3 text-left fw-bold me-5" style="font-size: 5rem">
+                <h1 class="mt-3 pb-3 text-left fw-bold me-md-5" style="font-size: 3rem">
                     <span class="text-primary">Mission</span>
                 </h1>
-                <ul class="me-5" style="text-align: justify">
+                <ul class="me-md-5" style="text-align: justify">
                     <li><h4>Built Integrated Merchant Aggregator Platform as a Part Of Marketing Channels.</h4></li>
                     <li><h4>Connect The Aggregation Merchant Across The World as A Part of Digital Transformation.</h4></li>
                     <li><h4>Make Continuous Improvement Solutions For Customer, Merchant and Stakeholders.</h4></li>
@@ -80,7 +78,7 @@
             </div>
         </div>
     </div>
-    {{-- End of Banner vision & mission --}}
+{{-- End of Banner vision & mission --}}
 
     {{-- Banner Milestone --}}
     <div class="container">
@@ -339,8 +337,6 @@
                 we get 600 ++ more accounts And ++ 30 Channels
             </span>
         </ul>
-
-
     </div>
       
     {{-- End of Banner Milestone --}}

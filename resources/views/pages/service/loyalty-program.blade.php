@@ -35,36 +35,34 @@
     {{-- End of Banner Loyalty Program --}}
     
     {{-- Banner Digital Program Feature --}}
-    <div class="container-fluid">
-        <div class="row ps-5 pe-5 justify-content-around bg-light pt-5 pb-5 shadow-sm">
-            <div class="col-md-7 col-sm-12 mb-5">
+    <div class="container">
+        <div class="row ps-md-3 pe-md-3 justify-content-center bg-light pt-5 pb-5 shadow-sm">
+            <div class="col-lg-7 col-md-8 col-sm-12 mb-5">
                 <div class="row mb-3">
-                    <h1 class="fw-bold" style="font-size: 3rem">
+                    <h1 class="fw-bold" style="font-size: 3rem; text-align: center;">
                         <span class="text-info">Digital Program</span>
-                         <span style="display: block">Features</span>                        
+                        <span style="display: block">Features</span>
                     </h1>
                 </div>
                 <div class="row">
-                    <div class="mb-5 border-3 border-dark border-bottom fs-3 feature-item"  onclick="showQuote('Personalize Rewards', '&rdquo;Offer your best rewards to customers that you need in various product, services, promotion, experience such as concert, wellness, travelling and etc.&rdquo;')">
+                    <div class="mb-3 mb-md-5 border-3 border-dark border-bottom fs-3 feature-item" onclick="showQuote('Personalize Rewards', '&rdquo;Offer your best rewards to customers that you need in various product, services, promotion, experience such as concert, wellness, travelling and etc.&rdquo;')">
                         Personalize Rewards
                     </div>
-                    <div class="mb-5 border-3 border-dark border-bottom fs-3 feature-item"  onclick="showQuote('Loyalty Systems That Suite For You', '&rdquo;Not only rewards, loyalty systems can be personalized based that are suitable for your industries. You can use the tier and points as part of loyalty.&rdquo;')">
+                    <div class="mb-3 mb-md-5 border-3 border-dark border-bottom fs-3 feature-item" onclick="showQuote('Loyalty Systems That Suite For You', '&rdquo;Not only rewards, loyalty systems can be personalized based that are suitable for your industries. You can use the tier and points as part of loyalty.&rdquo;')">
                         Loyalty Systems That Suite For You
                     </div>
-                    <div class="mb-5 border-3 border-dark border-bottom fs-3 feature-item" onclick="showQuote('Data Communications System', '&rdquo;Aldmic COOPN ensure that data communication systems can be seamless with the all digital platform through email and push notifications on demand&rdquo;')">
+                    <div class="mb-3 mb-md-5 border-3 border-dark border-bottom fs-3 feature-item" onclick="showQuote('Data Communications System', '&rdquo;Aldmic COOPN ensure that data communication systems can be seamless with all digital platforms through email and push notifications on demand&rdquo;')">
                         Data Communications System
                     </div>
-                    <div class="mb-5 border-3 border-dark border-bottom fs-3 feature-item" onclick="showQuote('The Best Customer Service', '&rdquo;As Merchant Aggregator Solution, Aldmic COOPN ensure the best customer service 7 x 24 Hours with high Service Level Aggrement.&rdquo;')">
+                    <div class="mb-3 mb-md-5 border-3 border-dark border-bottom fs-3 feature-item" onclick="showQuote('The Best Customer Service', '&rdquo;As Merchant Aggregator Solution, Aldmic COOPN ensures the best customer service 7 x 24 Hours with high Service Level Agreement.&rdquo;')">
                         The Best Customer Service
                     </div>
                 </div>
             </div>
-            
-            <div class="col-md-5 col-sm-12 align-items-center text-center mb-5 center-container">
-                <img class="pt-5 mb-3" src="{{ asset('images/service/loyalty-program/loyalty_banner.png') }}" alt="" style="width: auto;">
-                <h4 class="fw-bold quote pt-3" style="white-space: pre-line">
-
-                </h4>
+    
+            <div class="col-lg-5 col-md-8 col-sm-12 text-center mb-5 center-container">
+                <img class="pt-5 mb-3" src="{{ asset('images/service/loyalty-program/loyalty_banner.png') }}" alt="" style="width: auto; max-width: 100%;">
+                <h4 class="fw-bold quote pt-3" style="white-space: pre-line;"></h4>
             </div>
         </div>
     </div>
@@ -79,7 +77,7 @@
             
             <div class="row d-flex justify-content-center">
                 <div class="col-md-4 text-center mb-5">
-                    <img class="mb-3" src="{{ asset('images/service/loyalty-program/loyalty_program_benefits_1.png') }}" alt="">
+                    <img class="mb-3 img-fluid" src="{{ asset('images/service/loyalty-program/loyalty_program_benefits_1.png') }}" alt="">
                     <div style="margin-left: 5rem; margin-right:5rem;">
                         <p>
                             <span class="fw-bold">Customer Retention To Increase Sales KPI’s</span>
@@ -93,7 +91,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 text-center mb-5">
-                    <img class="mb-3" src="{{ asset('images/service/loyalty-program/loyalty_program_benefits_2.png') }}" alt="">
+                    <img class="mb-3 img-fluid" src="{{ asset('images/service/loyalty-program/loyalty_program_benefits_2.png') }}" alt="">
                     <div style="margin-left: 5rem; margin-right:5rem;">
                         <p>
                             <span class="fw-bold">Multi Channel Engagement:</span>
@@ -109,7 +107,7 @@
                 </div>
     
                 <div class="col-md-4 text-center mb-5">
-                    <img class="mb-3" src="{{ asset('images/service/loyalty-program/loyalty_program_benefits_3.png') }}" alt="">
+                    <img class="mb-3 img-fluid" src="{{ asset('images/service/loyalty-program/loyalty_program_benefits_3.png') }}" alt="">
                     <div style="margin-left: 5rem; margin-right:5rem;">
                         <p>
                             <span class="fw-bold">Data Collection:</span>
@@ -126,7 +124,7 @@
     
             <div class="row d-flex justify-content-center">
                 <div class="col-md-4 text-center mb-5">
-                    <img class="mb-3" src="{{ asset('images/service/loyalty-program/loyalty_program_benefits_4.png') }}" alt="">
+                    <img class="mb-3 img-fluid" src="{{ asset('images/service/loyalty-program/loyalty_program_benefits_4.png') }}" alt="">
                     <div style="margin-left: 3rem; margin-right:3rem;">
                         <p>
                             <span class="fw-bold">Brand Loyalty:</span>
@@ -140,7 +138,7 @@
                 </div>
     
                 <div class="col-md-4 text-center mb-5">
-                    <img class="mb-3" src="{{ asset('images/service/loyalty-program/loyalty_program_benefits_5.png') }}" alt="">
+                    <img class="mb-3 img-fluid" src="{{ asset('images/service/loyalty-program/loyalty_program_benefits_5.png') }}" alt="">
                     <div style="margin-left: 3rem; margin-right:3rem;">
                         <p>
                             <span class="fw-bold">Data Collection:</span>
@@ -155,7 +153,7 @@
                 </div>
     
                 <div class="col-md-4 text-center mb-5">
-                    <img class="mb-3" src="{{ asset('images/service/loyalty-program/loyalty_program_benefits_6.png') }}" alt="">
+                    <img class="mb-3 img-fluid" src="{{ asset('images/service/loyalty-program/loyalty_program_benefits_6.png') }}" alt="">
                     <div style="margin-left: 3rem; margin-right:3rem;">
                         <p>
                             <span class="fw-bold">Cost Efficiency:</span>
@@ -198,13 +196,13 @@
                 </span>
             </div>
             <div class="col-md-6 text-center">
-                <img src="{{ asset('images/service/loyalty-program/loyalty_project_1.png') }}" alt="">
+                <img src="{{ asset('images/service/loyalty-program/loyalty_project_1.png') }}" alt="" class=" img-fluid">
             </div>
         </div>
 
         <div class="row mt-5 justify-content-evenly align-items-center">
             <div class="col-md-6 text-center">
-                <img src="{{ asset('images/service/loyalty-program/loyalty_project_2.png') }}" alt="">
+                <img src="{{ asset('images/service/loyalty-program/loyalty_project_2.png') }}" alt="" class=" img-fluid">
             </div>
             <div class="col-md-6">
                 <h5>
@@ -238,7 +236,7 @@
                 </span>
             </div>
             <div class="col-md-6 text-center">
-                <img src="{{ asset('images/service/loyalty-program/loyalty_project_3.png') }}" alt="">
+                <img src="{{ asset('images/service/loyalty-program/loyalty_project_3.png') }}" alt="" class=" img-fluid">
             </div>
         </div>
 

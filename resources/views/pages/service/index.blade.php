@@ -25,7 +25,7 @@
     </div>
     
     <div class="container text-center pb-5">
-        <img src="{{ asset('images/product/mouse_icon.png') }}" alt="">
+        <img src="{{ asset('images/product/mouse_icon.png') }}" alt="" class=" img-fluid">
     </div>
     {{-- End of Banner Service --}}
 
@@ -38,7 +38,7 @@
         <div class="row ps-5 pe-5 justify-content-evenly ">
             <div class="row mt-5 justify-content-evenly align-items-center">
                 <div class="col-md-6 text-center">
-                    <img src="{{ asset('images/service/projects_1.png') }}" alt="">
+                    <img src="{{ asset('images/service/projects_1.png') }}" alt="" class=" img-fluid">
                 </div>
                 <div class="col-md-6">
                     <h1 class="text-success fw-bold">
@@ -87,13 +87,13 @@
                     </div>
                 </div>
                 <div class="col-md-6 text-center">
-                    <img src="{{ asset('images/service/projects_2.png') }}" alt="">
+                    <img src="{{ asset('images/service/projects_2.png') }}" alt="" class=" img-fluid">
                 </div>
             </div>
     
             <div class="row mt-5 justify-content-evenly align-items-center">
                 <div class="col-md-6 text-center">
-                    <img src="{{ asset('images/service/projects_3.png') }}" alt="">
+                    <img src="{{ asset('images/service/projects_3.png') }}" alt="" class=" img-fluid">
                 </div>
                 <div class="col-md-6">
                     <h1 class="text-info fw-bold">
@@ -140,13 +140,13 @@
                     </span>
                 </div>
                 <div class="col-md-6 text-center">
-                    <img src="{{ asset('images/service/loyalty-program/loyalty_project_1.png') }}" alt="">
+                    <img src="{{ asset('images/service/loyalty-program/loyalty_project_1.png') }}" alt="" class=" img-fluid">
                 </div>
             </div>
     
             <div class="row mt-5 justify-content-evenly align-items-center">
                 <div class="col-md-6 text-center">
-                    <img src="{{ asset('images/service/loyalty-program/loyalty_project_2.png') }}" alt="">
+                    <img src="{{ asset('images/service/loyalty-program/loyalty_project_2.png') }}" alt="" class=" img-fluid">
                 </div>
                 <div class="col-md-6">
                     <h5>
@@ -180,7 +180,7 @@
                     </span>
                 </div>
                 <div class="col-md-6 text-center">
-                    <img src="{{ asset('images/service/loyalty-program/loyalty_project_3.png') }}" alt="">
+                    <img src="{{ asset('images/service/loyalty-program/loyalty_project_3.png') }}" alt="" class=" img-fluid">
                 </div>
             </div>
         </div>

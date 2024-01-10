@@ -38,7 +38,7 @@
     {{-- Banner infrastructure --}}
     <div class="container-fluid">
         <div class="bg-light">
-            <div class="row justify-content-evenly bg-light align-items-center justify-content-center">
+            <div class="row d-flex bg-light align-items-center justify-content-center">
                 <div class="col-md-6">
                     <div class="ms-5">
                         <h1 class=" mt-5 pb-5 mb-5 text-left fw-bold" style="font-size: 3rem">
@@ -46,8 +46,8 @@
                         </h1>
                         <div class="text-left">
     
-                            <div class="row mb-5 align-items-center justify-content-center">
-                                <div class="col-md-2">
+                            <div class="row mb-5">
+                                <div class="col-md-2 d-flex align-items-center">
                                     <img src="{{ asset('images/home/home_icon_4.png') }}" alt="">
                                 </div>
                                 <div class="col-md-10">
@@ -57,7 +57,7 @@
                                 </div>
                             </div>
     
-                            <div class="row mb-5 align-items-center justify-content-center">
+                            <div class="row mb-5">
                                 <div class="col-md-10">
                                     <span class="fs-5 fw-bold">
                                         <span class="text-info">High Security</span> Equipped with Optimized Systems
@@ -69,7 +69,7 @@
                             </div>
     
     
-                            <div class="row mb-5 align-items-center justify-content-center">
+                            <div class="row mb-5">
                                 <div class="col-md-2">
                                     <img src="{{ asset('images/home/home_icon_2.png') }}" alt="">
                                 </div>    
@@ -80,7 +80,7 @@
                                 </div>
                             </div>
     
-                            <div class="row mb-5 align-items-center justify-content-center">
+                            <div class="row mb-5">
                                 <div class="col-md-10">
                                     <span class="fs-5 fw-bold"> 
                                         <span class="text-info">Real Time Monitoring</span> System and ActualDirectly To All Digital Platforms
@@ -94,7 +94,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 img-infrastructure">
-                    <img src="{{ asset('images/home/home_banner_mid.png') }}" alt="" width="100%">
+                    <img src="{{ asset('images/home/home_banner_mid.png') }}" alt="" width="100%" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -109,89 +109,89 @@
             </h1>
 
             {{-- Logo Partner --}}
-            <div class="row">
-                <div class="col-md-2">
+            <div class="row row-cols-2 row-cols-md-4 row-cols-lg-6 g-3">
+                <div class="col">
                     <img class="logo-img" src="{{ asset('images/LOGO-01.jpg') }}" alt="">
                 </div>
-                <div class="col-md-2">
+                <div class="col">
                     <img class="logo-img" src="{{ asset('images/LOGO-02.jpg') }}" alt="">
                 </div>
-                <div class="col-md-2">
+                <div class="col">
                     <img class="logo-img" src="{{ asset('images/LOGO-03.jpg') }}" alt="">
                 </div>
-                <div class="col-md-2">
+                <div class="col">
                     <img class="logo-img" src="{{ asset('images/LOGO-04.jpg') }}" alt="">
                 </div>
-                <div class="col-md-2">
+                <div class="col">
                     <img class="logo-img" src="{{ asset('images/LOGO-05.jpg') }}" alt="">
                 </div>
-                <div class="col-md-2">
+                <div class="col">
                     <img class="logo-img" src="{{ asset('images/LOGO-06.jpg') }}" alt="">
                 </div>
-                <div class="col-md-2">
+                <div class="col">
                     <img class="logo-img" src="{{ asset('images/LOGO-31.jpg') }}" alt="">
                 </div>
-                <div class="col-md-2">
+                <div class="col">
                     <img class="logo-img" src="{{ asset('images/LOGO-16.jpg') }}" alt="">
                 </div>
-                <div class="col-md-2">
+                <div class="col">
                     <img class="logo-img" src="{{ asset('images/LOGO-17.jpg') }}" alt="">
                 </div>
-                <div class="col-md-2">
+                <div class="col">
                     <img class="logo-img" src="{{ asset('images/LOGO-18.jpg') }}" alt="">
                 </div>
-                <div class="col-md-2">
+                <div class="col">
                     <img class="logo-img" src="{{ asset('images/LOGO-33.jpg') }}" alt="">
                 </div>
-                <div class="col-md-2">
+                <div class="col">
                     <img class="logo-img" src="{{ asset('images/LOGO-19.jpg') }}" alt="">
                 </div>
-                <div class="col-md-2">
+                <div class="col">
                     <img class="logo-img" src="{{ asset('images/LOGO-20.jpg') }}" alt="">
                 </div>
-                <div class="col-md-2">
+                <div class="col">
                     <img class="logo-img" src="{{ asset('images/LOGO-21.jpg') }}" alt="">
                 </div>
-                <div class="col-md-2">
+                <div class="col">
                     <img class="logo-img" src="{{ asset('images/LOGO-07.jpg') }}" alt="">
                 </div>
-                <div class="col-md-2">
+                <div class="col">
                     <img class="logo-img" src="{{ asset('images/LOGO-08.jpg') }}" alt="">
                 </div>
-                <div class="col-md-2">
+                <div class="col">
                     <img class="logo-img" src="{{ asset('images/LOGO-09.jpg') }}" alt="">
                 </div>
-                <div class="col-md-2">
+                <div class="col">
                     <img class="logo-img" src="{{ asset('images/LOGO-10.jpg') }}" alt="">
                 </div>
-                <div class="col-md-2">
+                <div class="col">
                     <img class="logo-img" src="{{ asset('images/LOGO-11.jpg') }}" alt="">
                 </div>
-                <div class="col-md-2">
+                <div class="col">
                     <img class="logo-img" src="{{ asset('images/LOGO-12.jpg') }}" alt="">
                 </div>
-                <div class="col-md-2">
+                <div class="col">
                     <img class="logo-img" src="{{ asset('images/LOGO-32.jpg') }}" alt="">
                 </div>
-                <div class="col-md-2">
+                <div class="col">
                     <img class="logo-img" src="{{ asset('images/LOGO-22.jpg') }}" alt="">
                 </div>
-                <div class="col-md-2">
+                <div class="col">
                     <img class="logo-img" src="{{ asset('images/LOGO-23.jpg') }}" alt="">
                 </div>
-                <div class="col-md-2">
+                <div class="col">
                     <img class="logo-img" src="{{ asset('images/LOGO-24.jpg') }}" alt="">
                 </div>
-                <div class="col-md-2">
+                <div class="col">
                     <img class="logo-img" src="{{ asset('images/LOGO-34.jpg') }}" alt="">
                 </div>
-                <div class="col-md-2">
+                <div class="col">
                     <img class="logo-img" src="{{ asset('images/LOGO-25.jpg') }}" alt="">
                 </div>
-                <div class="col-md-2">
+                <div class="col">
                     <img class="logo-img" src="{{ asset('images/LOGO-26.jpg') }}" alt="">
                 </div>
-                <div class="col-md-2">
+                <div class="col">
                     <img class="logo-img" src="{{ asset('images/LOGO-27.jpg') }}" alt="">
                 </div>
             </div>
@@ -208,31 +208,35 @@
                 We gift best
             </h1>
 
-            <div class="row mb-5 d-flex justify-content-center align-items-center">
-                <div class="col-md-4 text-center">
-                    <img src="{{ asset('images/home/property_home_1.png') }}" alt="">
-                    <h3 class="fw-bold mb-2 mt-3">Solution</h3>
-                    <span>
-                        We supply and operate our own solution using COOPN Digital's proprietary platformtechnology and infrastructure
-                    </span>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 custom-col mb-5 d-flex justify-content-center align-items-center">
+                <div class="col">
+                    <div class="text-center">
+                        <img src="{{ asset('images/home/property_home_1.png') }}" alt="" class="img-fluid">
+                        <h3 class="fw-bold mb-2 mt-3">Solution</h3>
+                        <span>
+                            We supply and operate our own solution using COOPN Digital's proprietary platform technology and infrastructure
+                        </span>
+                    </div>
                 </div>
-
-                <div class="col-md-4 text-center">
-                    <img src="{{ asset('images/home/property_home_2.png') }}" alt="">
-                    <h3 class="fw-bold mb-2 mt-3">Service</h3>
-                    <span>
-                        We provide customized services for
-                        our customersby linking to COOPN
-                        Digital's exclusive contents
-                    </span>
+    
+                <div class="col">
+                    <div class="text-center">
+                        <img src="{{ asset('images/home/property_home_2.png') }}" alt="" class="img-fluid">
+                        <h3 class="fw-bold mb-2 mt-3">Service</h3>
+                        <span>
+                            We provide customized services for our customers by linking to COOPN Digital's exclusive contents
+                        </span>
+                    </div>
                 </div>
-
-                <div class="col-md-4 text-center">
-                    <img src="{{ asset('images/home/property_home_3.png') }}" alt="">
-                    <h3 class="fw-bold mb-2 mt-3">Content</h3>
-                    <span>
-                        Providing effective contents targeting each channel customers
-                    </span>
+    
+                <div class="col">
+                    <div class="text-center">
+                        <img src="{{ asset('images/home/property_home_3.png') }}" alt="" class="img-fluid">
+                        <h3 class="fw-bold mb-2 mt-3">Content</h3>
+                        <span>
+                            Providing effective contents targeting each channel customers
+                        </span>
+                    </div>
                 </div>
             </div>
         </div>

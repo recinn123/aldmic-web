@@ -31,11 +31,11 @@
     </div>
     {{-- End of Banner E-Voucher --}}
 
-    {{-- Banner 2 --}}
+   {{-- Banner 2 --}}
     <div class="container-fluid">
-        <div class="row ps-5 pe-5 justify-content-evenly bg-light pt-5 pb-5 shadow-sm">
-            <div class="col-md-4 col-sm-12 text-right">
-                <img class="mb-3 ms-auto" src="{{ asset('images/product/evoucher_banner_1.png') }}" alt="">
+        <div class="row ps-3 pe-3 justify-content-evenly bg-light pt-5 pb-5 shadow-sm">
+            <div class="col-md-4 col-sm-12 text-center mb-3">
+                <img class="img-fluid" src="{{ asset('images/product/evoucher_banner_1.png') }}" alt="">
             </div>
             <div class="col-md-8 col-sm-12">
                 <div class="row mb-3">
@@ -46,14 +46,14 @@
                     </h1>
                 </div>
                 <div class="row">
-                    <p class="fs-4 text-justify" style="text-align: justify">
-                        Serves us to specialize as a Electronic Voucher Reseller or Mobile Gift Card for
-                        various products. Electronic Voucher Reseller can be use for digital platform to
+                    <p class="fs-4 text-justify">
+                        Serves us to specialize as an Electronic Voucher Reseller or Mobile Gift Card for
+                        various products. Electronic Voucher Reseller can be used for digital platforms to
                         redeem in E-Commerce* for shopping as simple and seamless for business and
                         suitable as rewards incentive employee benefit. Make The Potential Opportunity and
                         Join Us To Be E-Voucher Reseller for Businesses and Consumers through various
                         channels ever.
-                    </->
+                    </p>
                 </div>
             </div>
         </div>
@@ -173,13 +173,13 @@
     {{-- Banner Marketplace & Ecommerce --}}
     <div class="container">
         <div class="row pt-3">
-            <h1 class=" mt-5 pb-5 mb-5 text-left fw-bold text-center" style="font-size: 3rem">
+            <h1 class="mt-5 pb-5 mb-5 text-center fw-bold" style="font-size: 3rem">
                 Check our <span class="text-info">Marketplace & Ecommerce</span>
-                </h1>
+            </h1>
     
-            <div class="ps-5 pe-5">
+            <div class="ps-md-5 pe-md-5">
                 <div class="row">
-                    <div class="card-group text-center align-items-center">
+                    <div class="col text-center mb-3">
                         <div class="card">
                             <img  src="{{ asset('images/logo_paysgift.png') }}" class="card-img-top" alt="Logo PaysGift" data-banner-title="PaysGift" data-banner-description="PaysGift" data-banner-image="{{ asset('images/logo_paysgift.png') }}">
                         </div>
@@ -216,7 +216,7 @@
             <div class="col-md-8 col-sm-12 pt-5">
                 <div class="row mb-3 align-items-left ">
                     <h1>
-                        <img class="banner-logo-paysgift" src="{{ asset('images/logo_paysgift.png') }}" alt="Logo PaysGift">
+                        <img class="banner-logo-paysgift img-fluid" src="{{ asset('images/logo_paysgift.png') }}" alt="Logo PaysGift">
                     </h1>
                 </div>
                 <div class="row mb-3">
@@ -263,10 +263,3 @@
     });
 </script>
 @endpush
-
-{{-- <div class="col-md-4 pt-5 col-sm-12">
-    image
-</div>
-<div class="col-md-8 col-sm-12 pt-5">
-    Banner title & description
-</div> --}}
