@@ -54,7 +54,7 @@
                 <img src="{{ asset('images/about/image-about-1.png') }}" width="100%">
             </div>
             <div class="col-md-6 col-sm-12 top-header-image-2">
-                <img src="{{ asset('images/about/image-about-2.png') }}" width="75%" height="50px">
+                <img src="{{ asset('images/about/image-about-2.png') }}" width="75%" height="75px">
             </div>
         </div>
     </div>
