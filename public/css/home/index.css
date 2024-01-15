@@ -7,14 +7,70 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 575px) {
+    .display-infrastructure {
+        width: 100%; /* Optionally set width to 100% for small screens */
+    }
+    
+    .img-infrastructure img {
+        display: none;
+    }
+
+    .animated-background {
+        background-size: cover;
+    }
+
+    .infrastructure-text {
+        font-size: 16px;
+    }
+
+    .infrastructure-title{
+        font-size: 32px;
+    }
+
+    .animated-background{
+        background-position: center;
+        background-size: cover;
+    }
+
+    .gift-text{
+        font-size: 12px;
+    }
+    
+    .gift-header{
+        display: none;
+    }
+} 
+
+@media (min-width: 576px){
+    .infrastructure-title {
+        font-size: 1rem;
+    }
+
+    .infrastructure-text{
+        font-size: 18px;
+    }
+    
+    .animated-background{
+        background-size: auto;
+        background-position: center 30%;
+    }
+}
+
+@media (min-width: 768px) {
     .logo-img {
         margin-bottom: 15px;
     }
+
     .custom-col {
         margin-bottom: 15px;
     }
+
+    .infrastructure-title {
+        font-size: 3rem;
+    }
 }
+
 
 .animated-background {
     animation: fadeInBackground 2s ease-out; /* You can adjust the duration and timing function as needed */
@@ -34,7 +90,7 @@
 }
 
 .img-infrastructure img:hover {
-    opacity: 1; /* Set opacity to 1 on hover */
+    opacity: 1; /* Set opacity to 1 on hover */ 
 }
 
 .btn-outline-info:hover {

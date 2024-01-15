@@ -3,34 +3,15 @@
 @section('title', ' - Contact us')
 
 @push('css')
-    <style>
-        .custom-input-left,
-        .custom-input-right,
-        .text-area {
-            width: 100%;
-            min-height: 40px;
-            border: none;
-            border-radius: 5px;
-            outline: none;
-            margin-bottom: 10px;
-        }
-
-        .text-area {
-            margin-left: 0;
-            width: 100%;
-        }
-    </style>
+    <link rel="stylesheet" href="{{ asset('css/contact-us/index.css') }}">    
 @endpush
 
 @section('content')
-    <div class="container pt-5 pb-5"
+    <div class="container pt-5 pb-5 banner-contact"
         style="
-            background-image: url('{{ asset('images/contact-us/background.png') }}');
-            background-size: auto 200px;
-            background-position: 90% 5%;
-            background-repeat: no-repeat;">
+            background-image: url('{{ asset('images/contact-us/background.png') }}');">
         <div class="text-center mb-5 text-container">
-            <h1 class="fw-bold" style="font-size: 5rem">
+            <h1 class="fw-bold banner-contact-title">
                 <span class="text-info">Apply Now</span> and Join Us
             </h1>
 
@@ -43,39 +24,70 @@
     <div class="container pb-5">
         <form action="" method="post">
             <div class="row mb-4">
-                <div class="col-md-12 bg-light shadow-sm pt-1 pb-1 mb-4" style="width: 100%">
+                <div class="col-md-12 pt-1 pb-1 mb-4 banner-contact-form" style="width: 100%">
                     <span class="fs-5">
                         How can I help you
                     </span>
                 </div>
 
-                <div class="col-md-6 mb-4">
-                    <input type="text" placeholder="Name" class="shadow-sm custom-input-left bg-light">
+                <!-- Medium-Large Layout -->
+                <div class="col-md-6 mb-4 d-none d-md-block">
+                    <input type="text" name="name" placeholder="Name" class="shadow-sm custom-input-left bg-light">
                 </div>
 
-                <div class="col-md-6 mb-4">
-                    <input type="text" placeholder="Company Name" class="shadow-sm custom-input-right bg-light">
+                <div class="col-md-6 mb-4 d-none d-md-block">
+                    <input type="text" name="company_name" placeholder="Company Name" class="shadow-sm custom-input-right bg-light">
                 </div>
 
-                <div class="col-md-6 mb-4">
-                    <input type="email" placeholder="Email" class="shadow-sm custom-input-left bg-light">
+                <div class="col-md-6 mb-4 d-none d-md-block">
+                    <input type="email" name="email" placeholder="Email" class="shadow-sm custom-input-left bg-light">
                 </div>
 
-                <div class="col-md-6 mb-4">
-                    <input type="text" placeholder="Job Title" class="shadow-sm custom-input-right bg-light">
+                <div class="col-md-6 mb-4 d-none d-md-block">
+                    <input type="text" name="job_title" placeholder="Job Title" class="shadow-sm custom-input-right bg-light">
                 </div>
 
-                <div class="col-md-6 mb-4">
-                    <input type="text" placeholder="Phone Number" class="shadow-sm custom-input-left bg-light">
+                <div class="col-md-6 mb-4 d-none d-md-block">
+                    <input type="text" name="phone_number" placeholder="Phone Number" class="shadow-sm custom-input-left bg-light">
                 </div>
 
-                <div class="col-md-6 mb-4">
-                    <input type="text" placeholder="Industry" class="shadow-sm custom-input-right bg-light">
+                <div class="col-md-6 mb-4 d-none d-md-block">
+                    <input type="text" name="industry" placeholder="Industry" class="shadow-sm custom-input-right bg-light">
                 </div>
 
-                <div class="col-md-12 mb-4">
-                    <textarea class="text-area shadow-sm bg-light" placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+                <div class="col-md-12 mb-4 d-none d-md-block">
+                    <textarea class="text-area shadow-sm bg-light" placeholder="Message" name="message" id="message" cols="30" rows="10"></textarea>
                 </div>
+
+                <!-- Small Layout -->
+                <div class="col-md-6 mb-4 d-sm-none">
+                    <input type="text" name="name" placeholder="Name" class="shadow-sm custom-input-left bg-light">
+                </div>
+
+                <div class="col-md-6 mb-4 d-sm-none">
+                    <input type="email" name="email" placeholder="Email" class="shadow-sm custom-input-right bg-light">
+                </div>
+
+                <div class="col-md-6 mb-4 d-sm-none">
+                    <input type="text" name="phone_number" placeholder="Phone Number" class="shadow-sm custom-input-left bg-light">
+                </div>
+
+                <div class="col-md-6 mb-4 d-sm-none">
+                    <input type="text" name="company_name" placeholder="Company Name" class="shadow-sm custom-input-right bg-light">
+                </div>
+
+                <div class="col-md-6 mb-4 d-sm-none">
+                    <input type="text" name="job_title" placeholder="Job Title" class="shadow-sm custom-input-left bg-light">
+                </div>
+
+                <div class="col-md-6 mb-4 d-sm-none">
+                    <input type="text" name="industry" placeholder="Industry" class="shadow-sm custom-input-right bg-light">
+                </div>
+
+                <div class="col-md-12 mb-4 d-sm-none">
+                    <textarea class="text-area shadow-sm bg-light" placeholder="Message" name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+
             </div>
 
             <button type="submit" class="btn btn-info float-end me-3">

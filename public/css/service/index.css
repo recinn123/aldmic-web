@@ -1,52 +1,42 @@
-.banner-container {
-    position: relative;
-    text-align: center;
-    padding: 40px;
+@media (max-width: 575px){
+    .banner-service{
+        background-size: contain;
+        background-position: center 0px;
+        background-repeat: no-repeat;
+    }
+    
+    .banner-service-title{
+        font-size: 3rem;
+    }
+    
+    .banner-service-subtitle{
+        font-size: 2rem;
+    }
+    
+    .text-project{
+        font-size: 14px;
+    }
 }
 
-.card-img-top{
-    height: 100px;
-    width: auto;
-    object-fit: contain;
-    margin-left: 10%;
-    margin-right: 10%;
-}
+@media (min-width: 576px){
+    
+    .banner-service{
+        background-size: auto;
+        background-position: center 0px;
+        background-repeat: no-repeat;
+    }
 
-.banner-logo-paysgift{
-    width: auto;
-    height: 100px;
-}
+    .banner-service-title{
+        font-size: 5rem;
+    }
+    
+    .banner-service-subtitle{
+        font-size: 3rem;
+    }
 
-.line-heading {
-    position: relative;
-    display: inline-block;
-}
-
-.line-heading::before,
-.line-heading::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    width: 150px;  
-    height: 7px;  
-    background-color: #17a2b8;
-    border-radius: 5px;
-}
-
-.line-heading::before {
-    left: -10px; transform: translateX(-100%);
-}
-
-.line-heading::after {
-    right: -10px; transform: translateX(100%);
-}
-
-.image-container {
-    display: block;
-    margin: 0 auto;
-}
-
-.card:hover {
-    background-color: #f8f9fa; /* Set the background color when hovering */
-    cursor: pointer; /* Change cursor to a pointer */
+    .banner-projects{
+        background-size: 50rem;
+        background-position: -35% 40%;
+        background-repeat: no-repeat;
+    }
 }

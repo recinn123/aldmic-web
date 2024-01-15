@@ -1,7 +1,7 @@
 {{-- not Fixed --}}
 <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white shadow-sm">
   <div class="container-fluid ps-5 pe-5">
-    <a class="navbar-brand" href="{{ route('home') }}"><img src="{{ asset('images/logo.png') }}" alt="" style="width: auto; height:50px"></a>
+    <a class="navbar-brand" href="{{ route('home') }}"><img class="img-logo" src="{{ asset('images/logo.png') }}"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
