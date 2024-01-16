@@ -342,21 +342,23 @@
                     </div>
                 </div>
                 <div class="d-md-none row">
-                    <div class="col-6 col-md-12 card-group text-center mb-3">
+                    <div class="col-4 col-md-12 card-group text-center mb-3">
                         <div class="card">
                             <img  src="{{ asset('images/logo_paysgift.png') }}" class="card-img-top" alt="Logo PaysGift" data-banner-title="PaysGift" data-banner-description="PaysGift" data-banner-image="{{ asset('images/logo_paysgift.png') }}">
                         </div>
                         <div class="card">
                             <img  src="{{ asset('images/samsung.png') }}" class="card-img-top" alt="Logo Samsung" data-banner-title="Samsung" data-banner-description="Samsung" data-banner-image="{{ asset('images/samsung.png') }}">
                         </div>
+                    </div>
+                    <div class="col-4 col-md-12 card-group text-center">
                         <div class="card">
                             <img  src="{{ asset('images/LOGO-35.png') }}" class="card-img-top" alt="Logo Lazada" data-banner-title="Lazada" data-banner-description="Lazada" data-banner-image="{{ asset('images/LOGO-35.jpg') }}">
                         </div>  
-                    </div>
-                    <div class="col-6 col-md-12 card-group text-center">
                         <div class="card">
                             <img  src="{{ asset('images/LOGO-36.png') }}" class="card-img-top" alt="Logo OPPO" data-banner-title="OPPO" data-banner-description="OPPO" data-banner-image="{{ asset('images/LOGO-36.jpg') }}">
                         </div>
+                    </div>
+                    <div class="col-4 col-md-12 card-group text-center">
                         <div class="card">
                             <img  src="{{ asset('images/LOGO-32.png') }}" class="card-img-top" alt="Logo DANA" data-banner-title="DANA" data-banner-description="DANA" data-banner-image="{{ asset('images/LOGO-32.png') }}">
                         </div>
