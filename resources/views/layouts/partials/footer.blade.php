@@ -45,7 +45,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-6 justify-content-center">
+        <div class="col-md-6">
             <div class="row">
                 <div class="col-md-4 col-6 mt-3">
                     <a href="{{ route('about.index') }}"><h5 class="pb-2 text-info fw-bold">About</h5></a>  

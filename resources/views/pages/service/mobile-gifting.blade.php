@@ -263,7 +263,7 @@
 
     {{-- Banner 5 --}}
     <div class="container-fluid">
-        <div class="row ps-5 pe-5 justify-content-evenly bg-light pt-5 pb-5 shadow-sm">
+        <div class="row ps-5 pe-5 bg-light pt-5 pb-5 shadow-sm">
             <div class="col-md-6 col-sm-12 text-center d-none d-md-block">
                 <img class=" img-fluid " src="{{ asset('images/service/mobile-gifting/image_statistic.png') }}" alt="" width="50%">
             </div>

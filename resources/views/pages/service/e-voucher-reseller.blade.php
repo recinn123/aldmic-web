@@ -8,7 +8,7 @@
 
 @section('content')
     {{-- Banner E-Voucher --}}
-    <div class="container pt-5 pb-5 justify-content-center align-items-center top-banner"
+    <div class="container pt-5 pb-5 align-items-center top-banner"
     style="background-image: url('{{ asset('images/product/evoucher.png') }}');">
         <div class="text-center mb-5">
             <h1 class="fw-bold top-banner-title">
@@ -30,7 +30,7 @@
 
    {{-- Banner 2 --}}
     <div class="container-fluid">
-        <div class="row ps-3 pe-3 justify-content-evenly bg-light pt-5 pb-5 shadow-sm">
+        <div class="row ps-3 pe-3 bg-light pt-5 pb-5 shadow-sm">
             <div class="col-md-4 col-sm-12 text-center mb-3 img-banner-2">
                 <img class="img-fluid" src="{{ asset('images/product/evoucher_banner_1.png') }}" alt="">
             </div>
@@ -374,7 +374,7 @@
 
     {{-- Banner Paysgift --}}
     <div class="container-fluid">
-        <div class="row ps-5 pe-5 justify-content-around bg-light pt-5 pb-5 shadow-sm">
+        <div class="row ps-5 pe-5 bg-light pt-5 pb-5 shadow-sm">
             <div class="col-md-4 pt-5 col-sm-12 banner-5-image">
                 <div class="image-container">
                     <img class="mb-3 img-fluid" class="text-center" style="text-align: center" src="{{ asset('images/product/PG.png') }}" alt="" width="100%">

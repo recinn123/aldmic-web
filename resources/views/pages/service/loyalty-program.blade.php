@@ -299,35 +299,14 @@
 
     {{-- Banner Projects --}}
     <div class="container pt-5 pb-5">
-        <div class="row justify-content-evenly text-center mb-5">
+        <div class="row text-center mb-5">
             <h1 class="fw-bold banner-projects-title">
                 Check our <span class="text-info">Project</span>
             </h1>
         </div>
 
-        <div class="row mt-5 justify-content-evenly align-items-center d-none d-md-block">
-            <div class="col-md-6">
-                <h5>
-                    BRAND CAMPAIGN
-                </h5>
-                <h1 class="text-info fw-bold">
-                    ACTIVATION.
-                </h1>
-                <span style="text-align: justify">
-                    DSS's very own 108th anniversary to create magnificent online
-                    offline collaboration events with Asli Indonesia experiences journey
-                    from virtual exhibition full of music performance, local business,
-                    content creators to offlines culinary delicacy, creative communities
-                    and many more.
-                </span>
-            </div>
-            <div class="col-md-6 text-center">
-                <img src="{{ asset('images/service/loyalty-program/loyalty_project_1.png') }}" alt="" class=" img-fluid">
-            </div>
-        </div>
-      
-        <div class="row mt-5 justify-content-evenly align-items-center d-md-none">
-            <div class="col-md-6 text-center mb-3">
+        <div class="row mt-5">
+            <div class="col-md-6 mb-3 text-center d-md-none">
                 <img src="{{ asset('images/service/loyalty-program/loyalty_project_1.png') }}" alt="" class=" img-fluid">
             </div>
             <div class="col-md-6">
@@ -344,11 +323,14 @@
                     content creators to offlines culinary delicacy, creative communities
                     and many more.
                 </span>
+            </div>
+            <div class="col-md-6 text-center d-none d-md-block">
+                <img src="{{ asset('images/service/loyalty-program/loyalty_project_1.png') }}" alt="" class=" img-fluid">
             </div>
         </div>
 
-        <div class="row mt-5 justify-content-evenly align-items-center">
-            <div class="col-md-6 text-center mb-6">
+        <div class="row mt-5">
+            <div class="col-md-6 mb-3 text-center mb-6">
                 <img src="{{ asset('images/service/loyalty-program/loyalty_project_2.png') }}" alt="" class=" img-fluid">
             </div>
             <div class="col-md-6">
@@ -366,29 +348,8 @@
             </div>
         </div>
         
-        <div class="row mt-5 justify-content-around align-items-center d-none d-md-block">
-            <div class="col-md-6">
-                <h5>
-                    BRAND CAMPAIGN
-                </h5>
-                <h1 class="text-info fw-bold">
-                    ACTIVATION.
-                </h1>
-                <span style="text-align: justify">
-                    <ul>
-                        <li>IQOS Home Service</li>
-                        <li>Iqos Space</li>
-                        <li>Iqos Society Jabodetabek, Semarang, Makassar, Surabaya & Bali Concept, Journey & Man Power</li>
-                    </ul>
-                </span>
-            </div>
-            <div class="col-md-6 text-center">
-                <img src="{{ asset('images/service/loyalty-program/loyalty_project_3.png') }}" alt="" class=" img-fluid">
-            </div>
-        </div>
-
-        <div class="row mt-5 justify-content-around align-items-center d-md-none">
-            <div class="col-md-6 text-center mb-3">
+        <div class="row mt-5">
+            <div class="col-md-6 mb-3 text-center d-md-none">
                 <img src="{{ asset('images/service/loyalty-program/loyalty_project_3.png') }}" alt="" class=" img-fluid">
             </div>
             <div class="col-md-6">
@@ -406,9 +367,12 @@
                     </ul>
                 </span>
             </div>
+            <div class="col-md-6 text-center d-none d-md-block">
+                <img src="{{ asset('images/service/loyalty-program/loyalty_project_3.png') }}" alt="" class=" img-fluid">
+            </div>
         </div>
 
-        <div class="row mt-5 justify-content-around align-items-center text-center">
+        <div class="row mt-5 text-center">
             <a href="{{ route('service.index') }}" class="show-more-link">
                 <h3 class="text-secondary fw-bold">
                     Show More
@@ -438,11 +402,6 @@ function showQuote(feature, quoteContent) {
       }, 10);
     }
 
-    // Remove justify-content-center class from the container
-    var container = document.querySelector('.center-container');
-    if (container) {
-      container.classList.remove('justify-content-center');
-    }
   }
 </script>
 @endpush

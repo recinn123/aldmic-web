@@ -169,7 +169,7 @@
                 </div>
             </div>
             
-            <div class="row mt-5 justify-content-around align-items-center">
+            <div class="row mt-5 align-items-center">
                 <div class="col-md-6 mb-3 text-center d-md-none">
                     <img src="{{ asset('images/service/loyalty-program/loyalty_project_3.png') }}" alt="" class=" img-fluid">
                 </div>

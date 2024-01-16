@@ -99,7 +99,7 @@
 
     {{-- Banner partner --}}
     <div class="container">
-        <div class="text-center mt-5 mb-5 justify-content-around ">
+        <div class="text-center mt-5 mb-5">
             <h1 class="fw-bold mb-5" style="font-size: 2rem">
                 We Serve One Stop Solution All You Need For Industries Ever
             </h1>
