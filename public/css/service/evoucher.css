@@ -82,6 +82,11 @@
         display: block;
         margin: 0 auto;
     }
+    
+    .banner-logo-paysgift{
+        height: 100%;
+        width: 20rem;
+    }
 }
 
 .card-img-top{

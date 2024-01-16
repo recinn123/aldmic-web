@@ -383,7 +383,7 @@
             <div class="col-md-8 col-sm-12 pt-5">
                 <div class="row mb-3 align-items-left banner-5-logo">
                     <h1>
-                        <img class="banner-logo-paysgift" src="{{ asset('images/logo_paysgift.png') }}" alt="" width="100%" height="100px">
+                        <img class="banner-logo-paysgift" src="{{ asset('images/logo_paysgift.png') }}" alt="">
                     </h1>
                 </div>
                 <div class="row mb-3">
