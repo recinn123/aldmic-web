@@ -98,7 +98,6 @@
     </div>
 
     <div class="container timeline-container">
-        {{-- <img src="{{ asset('images/about/milestone.png') }}" alt="" width="100%"> --}}
         <ul class="timeline">
             <li class="timeline-item-2-divider">
                 <div class="timeline-item-left-divider">
@@ -348,6 +347,17 @@
 
 @push('script')
     <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var timelineItems = document.querySelectorAll('.timeline-item-right');
+            timelineItems.forEach(function(item) {
+                if (navigator.userAgent.match(/(iPad|iPhone|iPod)/i)) {
+                    item.classList.add('device-ios');
+                } else if (navigator.userAgent.match(/android/i)) {
+                    item.classList.add('device-android');
+                }
+            });
+        });
+
          document.getElementById('seeMoreLink').addEventListener('click', function () {
             // Hide the "See more..." link when clicked
             this.style.display = 'none';

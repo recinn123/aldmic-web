@@ -59,7 +59,11 @@
         background-color: #000;
     }
 
-    .timeline-item-right {
+    .device-ios {
+        flex-basis: 32%;
+    }
+
+    .device-android{
         flex-basis: 35%;
     }
 
