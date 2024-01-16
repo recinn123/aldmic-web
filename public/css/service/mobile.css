@@ -1,6 +1,84 @@
+@media (max-width: 575px){
+  
+  .container-overlay{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .banner-mobile{
+    background-size: 8rem;
+    background-position: 90% 10%;
+    background-repeat: no-repeat;
+  }
+
+  .banner-mobile-title{
+    font-size: 2.5rem ;
+  }
+
+  .banner-mobile-subtitle{
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+
+  .gifts-text{
+    font-size: 12px;
+    text-align: justify;
+  }
+
+  .banner-benefit-title{
+    font-size: 1.75rem;
+  }
+
+  .feature-item{
+    padding: 10px;
+    font-size: 1.25rem;
+  }
+
+  .banner-merchant-title{
+    font-size: 1.5rem;
+  }
+
+  .banner-merchant-subtitle{
+    font-size: 14px;
+  }
+
+}
+
+@media (min-width: 576px){
+  .container-overlay{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+
+  .banner-mobile{
+    background-size: contain;
+    background-position: 65% center;
+    background-repeat: no-repeat;
+  }
+
+  .banner-mobile-title{
+    font-size: 4rem;
+  }
+  
+  .banner-benefit-title{
+    font-size: 3rem;
+  }
+
+  .feature-item {
+    padding: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .banner-merchant-title{
+    font-size: 3rem;
+  }
+
+  .banner-merchant-subtitle{
+    font-size: 1.5rem;
+  }
+}
+
 .feature-item {
-  font-size: 1.5rem;
-  padding: 20px;
   position: relative;
   overflow: hidden;
 }
@@ -34,4 +112,8 @@
 
 .text-performance:hover {
   color: #000; /* Text color on hover */
+}
+
+.banner-5-text{
+  text-align: justify;
 }

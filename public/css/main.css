@@ -1,6 +1,5 @@
 body {
     font-family: 'Lato', sans-serif;
-    padding-top: 80px; 
 }
 
 .banner-background {
@@ -91,3 +90,58 @@ footer .col-md-4 a h5:hover {
 .button-contact-us:hover span {
     transform: scale(1.2); /* Change the scale factor to control the size increase */
 }
+
+.img-logo {
+    width: 100%;
+}
+
+
+@media (max-width: 575px) {
+    body {
+        padding-top: 70px; 
+    }
+    
+    .img-logo {
+        height: 25px;
+    }
+    
+    .img-footer-logo {
+        height: 40px;
+        width: 80%;
+    }
+
+    .img-footer-paysgift-logo{
+        width: 100%;
+        height: 40px;
+    }
+
+    .mini-footer {
+        font-size: 12px;
+    }
+    
+
+}
+
+@media (min-width: 576px) {
+    body {
+        padding-top: 80px;  
+    }
+
+    .img-logo {
+        height: 40px;
+    }
+    
+    .img-footer-logo,
+    .img-footer-paysgift-logo{
+        width: 100%;
+    }
+
+    .img-footer-logo {
+        height: 60px;
+    }
+
+    .img-footer-paysgift-logo{
+        height: 40px;
+    }
+}
+

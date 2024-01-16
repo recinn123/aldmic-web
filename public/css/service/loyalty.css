@@ -1,14 +1,99 @@
+@media (max-width: 575px){
+    .banner-loyalty {
+        background-size: 12rem;
+        background-position: 30% -20px;
+        background-repeat: no-repeat;
+    }
+    
+    .banner-loyalty-title{
+        font-size: 2.5rem;
+    }
+
+    .banner-loyalty-subtitle{
+        font-size: 1.15rem;
+    }
+
+    .banner-digital-title{
+        font-size: 1.75rem;
+        text-align: center;
+    }
+    
+    .feature-item {
+        font-size: 1.25rem;
+        padding: 10px;
+    }
+    
+    .banner-benefits-title{
+        font-size: 1.75rem;
+        margin-bottom: 3rem;
+    }
+
+    .benefits-text{
+        font-size: 12px;
+        text-align: justify;
+    }
+
+}
+
+@media (min-width: 576px){
+    .banner-loyalty {
+        background-size: 25rem;
+        background-position: 30% -75px;
+        background-repeat: no-repeat;
+    }
+
+    .banner-loyalty-title{
+        font-size: 4rem;
+    }
+
+    .banner-loyalty-subtitle{
+        font-size: 2rem;   
+    }
+
+    .banner-digital-title{
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .feature-item {
+        font-size: 1.5rem;
+        padding: 20px;
+    }
+
+    .banner-benefits-title{
+        font-size: 3rem;
+        margin-bottom: 5rem;
+    }
+
+}
+
 .feature-item {
-    font-size: 1.5rem;
-    padding: 20px;
-    border-bottom: 3px solid transparent;
-    transition: 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
   }
+  
+.feature-item::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px; /* Set your desired border-bottom height */
+    background-color: yourBorderColor; /* Set your desired border color */
+    transform: scaleX(0); /* Initial state with no width */
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+.feature-item:hover::before {
+    transform: scaleX(1); /* Fully reveal the border on hover */
+}
 
 .feature-item:hover {
     font-weight: bold;
-    border-bottom-width: 5px; 
+    border-bottom-width: 5px; /* Increase border-bottom width on hover */
 }
+  
 
 
 .quote {

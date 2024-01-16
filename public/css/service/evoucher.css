@@ -1,0 +1,128 @@
+@media (max-width: 575px){
+
+    .top-banner {
+        background-size: contain;
+        background-position: center 5%;
+        background-repeat: no-repeat;
+    }
+
+    .top-banner-title{
+        font-size: 3rem;
+    }
+    
+    .top-banner-subtitle{
+        font-size: 1.25rem;
+    }
+
+    .img-banner-2{
+        display: none;
+    }
+
+    .banner-2-title{
+        font-size: 1.5rem;
+    }
+
+    .banner-2-subtitle{
+        font-size: 1rem;
+        text-align: justify;
+    }
+    
+    .banner-3-title{
+        font-size: 1.5rem;
+    }
+    
+    .banner-4-title{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .banner-5-image,
+    .banner-5-logo{
+        display: none;
+    }
+
+    .advantages-text{
+        font-size: 12px;
+        text-align: justify;
+    }
+    
+}
+
+@media (min-width: 576px){
+    
+    .top-banner {
+        background-size: contain;
+        background-position: center 45%;
+        background-repeat: no-repeat;
+    }
+    
+    .top-banner-title{
+        font-size: 5rem;
+    }
+    
+    .top-banner-subtitle{
+        font-size: 3rem;
+    }
+
+    .banner-2-subtitle{
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+
+    .banner-3-title{
+        font-size: 3rem;
+    }
+
+    .banner-4-title{
+        font-size: 3rem;
+        margin-bottom: 3rem;
+    }
+    
+    .image-container {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .banner-logo-paysgift{
+        height: 100%;
+        width: 20rem;
+    }
+}
+
+.card-img-top{
+    height: 100px;
+    width: auto;
+    object-fit: contain;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.line-heading {
+    position: relative;
+    display: inline-block;
+}
+
+.line-heading::before,
+.line-heading::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 150px;  
+    height: 7px;  
+    background-color: #17a2b8;
+    border-radius: 5px;
+}
+
+.line-heading::before {
+    left: -10px; transform: translateX(-100%);
+}
+
+.line-heading::after {
+    right: -10px; transform: translateX(100%);
+}
+
+.card:hover {
+    background-color: #f8f9fa; /* Set the background color when hovering */
+    cursor: pointer; /* Change cursor to a pointer */
+}
