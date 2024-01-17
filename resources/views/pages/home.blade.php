@@ -33,65 +33,63 @@
     {{-- End of Button Find About us--}}
     
     {{-- Banner infrastructure --}}
-    <div class="container-fluid">
-        <div class="bg-light">
-            <div class="row d-flex bg-light align-items-center justify-content-center">
-                <div class="col-md-6 col-12 display-infrastructure">
-                    <div class="ms-5">
-                        <span class="infrastructure-title mt-5 pb-5 mb-5 text-left fw-bold">
-                            Our Infrastructure For <span class="text-primary">Business Sustainability</span>
-                        </span>
-                        <div class="text-left">
-                            <div class="row mb-5 d-flex justify-content-center align-items-center">
-                                <div class="col-md-2 col-3">
-                                    <img src="{{ asset('images/home/home_icon_4.png') }}" alt="">
-                                </div>
-                                <div class="col-md-10 col-9">
-                                    <span class="text-break infrastructure-text fw-bold">
-                                        COOPN Digital <span class="text-info">provides the Solution</span> Proprietary Platform Technology
-                                    </span>
-                                </div>
+    <div class="container-fluid bg-light">
+        <div class="row d-flex bg-light align-items-center justify-content-center">
+            <div class="col-md-6 col-12 display-infrastructure">
+                <div class="ms-5">
+                    <span class="infrastructure-title mt-5 pb-5 mb-5 text-left fw-bold">
+                        Our Infrastructure For <span class="text-primary">Business Sustainability</span>
+                    </span>
+                    <div class="text-left">
+                        <div class="row mb-5 d-flex justify-content-center align-items-center">
+                            <div class="col-md-2 col-3">
+                                <img src="{{ asset('images/home/home_icon_4.png') }}" alt="">
                             </div>
-    
-                            <div class="row mb-5">
-                                <div class="col-md-10 col-8">
-                                    <span class="text-break infrastructure-text fw-bold">
-                                        <span class="text-info">High Security </span> Equipped with Optimized Systems
-                                    </span>
-                                </div>
-                                <div class="col-md-2 col-4">
-                                    <img src="{{ asset('images/home/home_icon_1.png') }}" alt="">
-                                </div>
+                            <div class="col-md-10 col-9">
+                                <span class="text-break infrastructure-text fw-bold">
+                                    COOPN Digital <span class="text-info">provides the Solution</span> Proprietary Platform Technology
+                                </span>
                             </div>
-    
-    
-                            <div class="row mb-5">
-                                <div class="col-md-2 col-3">
-                                    <img src="{{ asset('images/home/home_icon_2.png') }}" alt="">
-                                </div>    
-                                <div class="col-md-10 col-9">
-                                    <span class="text-break infrastructure-text fw-bold">
-                                        The In the <span class="text-info">Best Customer Services </span> Merchant Aggregator Industry
-                                    </span>
-                                </div>
+                        </div>
+
+                        <div class="row mb-5">
+                            <div class="col-md-10 col-8">
+                                <span class="text-break infrastructure-text fw-bold">
+                                    <span class="text-info">High Security </span> Equipped with Optimized Systems
+                                </span>
                             </div>
-    
-                            <div class="row mb-5">
-                                <div class="col-md-10 col-8">
-                                    <span class="text-break infrastructure-text fw-bold"> 
-                                        <span class="text-info">Real Time Monitoring </span> System and ActualDirectly To All Digital Platforms
-                                    </span>     
-                                </div>
-                                <div class="col-md-2 col-4">
-                                    <img src="{{ asset('images/home/home_icon_2.png') }}" alt="">
-                                </div>
+                            <div class="col-md-2 col-4">
+                                <img src="{{ asset('images/home/home_icon_1.png') }}" alt="">
+                            </div>
+                        </div>
+
+
+                        <div class="row mb-5">
+                            <div class="col-md-2 col-3">
+                                <img src="{{ asset('images/home/home_icon_2.png') }}" alt="">
+                            </div>    
+                            <div class="col-md-10 col-9">
+                                <span class="text-break infrastructure-text fw-bold">
+                                    The In the <span class="text-info">Best Customer Services </span> Merchant Aggregator Industry
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="row mb-5">
+                            <div class="col-md-10 col-8">
+                                <span class="text-break infrastructure-text fw-bold"> 
+                                    <span class="text-info">Real Time Monitoring </span> System and ActualDirectly To All Digital Platforms
+                                </span>     
+                            </div>
+                            <div class="col-md-2 col-4">
+                                <img src="{{ asset('images/home/home_icon_2.png') }}" alt="">
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 img-infrastructure">
-                    <img src="{{ asset('images/home/home_banner_mid.png') }}" alt="" width="100%" class="img-fluid">
-                </div>
+            </div>
+            <div class="col-md-6 img-infrastructure">
+                <img src="{{ asset('images/home/home_banner_mid.png') }}" alt="" width="100%" class="img-fluid">
             </div>
         </div>
     </div>

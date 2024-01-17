@@ -64,7 +64,7 @@
 
     {{-- Banner Mobile Gift Card --}}
     <div class="container text-center">
-        <h1 class="fw-bold mb-3">
+        <h1 class="fw-bold mb-5">
             Our Mobile Gift Card Features
         </h1>
 
