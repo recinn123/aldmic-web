@@ -15,9 +15,9 @@
                 <span class="text-info">E-Voucher</span> reseller
             </h1>
     
-            <h3 class="fw-bold mb-5 top-banner-subtitle">
+            <h3 class="fw-bold mb-5 top-banner-subtitle text-break">
                 For <span class="text-info">Marketplace & Ecommerce</span> Platform, </span>
-                <span style="display: block;">Make It Easy for Shopping Ever</span>
+                Make It Easy for Shopping Ever
             </h3>
 
         </div>
