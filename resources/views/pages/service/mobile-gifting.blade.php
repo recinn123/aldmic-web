@@ -45,14 +45,14 @@
                 Mobile <span class="text-info">Gifting</span>
             </h1>
     
-            <h3 class="fw-bold banner-mobile-subtitle">
-                Spread The Happiness On <span style="display: block"><span class="text-info">Digital Platform</span> Easily Now!</span>
+            <h3 class="fw-bold banner-mobile-subtitle text-break">
+                Spread The Happiness On <span><span class="text-info">Digital Platform</span> Easily Now!</span>
             </h3>
 
             
-            <p>
-                The Most Integrated Merchant Aggregator in your hand with one application for all customers ever. <br>
-                Get your seamless Platform to distribute all benefits in Your Hand.
+            <p class="banner-mobile-paragraph text-break">
+                The Most Integrated Merchant Aggregator in your hand with one application for all customers ever.
+                 Get your seamless Platform to distribute all benefits in Your Hand.
             </p>
 
         </div>

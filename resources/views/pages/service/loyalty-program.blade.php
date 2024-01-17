@@ -9,7 +9,7 @@
 @section('content')
     
     {{-- Banner Loyalty Program --}}
-    <div class="container pt-5 pb-5 banner-loyalty" 
+    <div class="container pt-5 banner-loyalty" 
         style="background-image: url('{{ asset('images/service/loyalty-program/loyalty.png') }}');">
         
         <div class="text-center mb-5">
