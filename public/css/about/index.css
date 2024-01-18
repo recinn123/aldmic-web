@@ -10,7 +10,7 @@
     }
     
     .top-banner-subtitle{
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 
     .top-header-image-2 {
@@ -176,6 +176,10 @@
     
     .timeline-item p{
         font-size: 20px;
+    }
+    
+    .milestone-end-2{
+        font-size: 1.25rem;
     }
 }
 

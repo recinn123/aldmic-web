@@ -52,7 +52,7 @@
             
             <p class="banner-mobile-paragraph text-break">
                 The Most Integrated Merchant Aggregator in your hand with one application for all customers ever.
-                 Get your seamless Platform to distribute all benefits in Your Hand.
+                Get your seamless Platform to distribute all benefits in Your Hand.
             </p>
 
         </div>
@@ -255,7 +255,7 @@
             </h1>
             <p class="banner-merchant-subtitle text-break">
                 Reach out your Mobile Gift Card performance & KPI metrics with dashboard monitoring directly & actually real
-                <br>time as part of business decision understandable for operations, project, goals to the future basis.
+                time as part of business decision understandable for operations, project, goals to the future basis.
             </p>
         </div>
     </div>

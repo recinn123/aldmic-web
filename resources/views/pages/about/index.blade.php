@@ -328,7 +328,7 @@
                     <span></span>
                 </div>
                 <div class="">
-                    <h2 class="fw-bolder">
+                    <h2 class="fw-bolder milestone-end-1">
                         TODAY
                     </h2>
                 </div>
@@ -336,7 +336,7 @@
                     <span></span>
                 </div>
             </li>
-            <span class="text-center d-flex justify-content-center align-items-center pb-5 fw-bolder" style="white-space: pre-line;font-size:20px;">
+            <span class="text-center d-flex justify-content-center align-items-center pb-5 fw-bolder text-break milestone-end-2">
                 we get 600 ++ more accounts And ++ 30 Channels
             </span>
         </ul>

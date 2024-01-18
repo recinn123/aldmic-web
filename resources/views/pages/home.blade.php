@@ -40,7 +40,7 @@
                     <span class="infrastructure-title mt-5 pb-5 mb-5 text-left fw-bold">
                         Our Infrastructure For <span class="text-primary">Business Sustainability</span>
                     </span>
-                    <div class="text-left">
+                    <div class="text-left infrastructure-content">
                         <div class="row mb-5 d-flex justify-content-center align-items-center">
                             <div class="col-md-2 col-3">
                                 <img src="{{ asset('images/home/home_icon_4.png') }}" alt="">
@@ -197,14 +197,14 @@
 
     {{-- Banner Give --}}
     <div class="container-fluid d-md-none bg-light">
-        <h1 class="fw-bold text-center " style="font-size: 2rem">
+        <h1 class="fw-bold text-center gift-header-title" >
             We gift best
         </h1>
     </div>
     
     <div class="container">
-        <div class="mt-5 mb-5">
-            <h1 class="fw-bold mb-5 text-center gift-header" style="font-size: 3rem">
+        <div class="mb-5">
+            <h1 class="fw-bold mb-5 text-center gift-header">
                 We gift best
             </h1>
 
