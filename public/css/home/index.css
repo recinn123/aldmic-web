@@ -1,7 +1,3 @@
-.animated-background {
-    animation: fadeInBackground 2s ease-out; /* You can adjust the duration and timing function as needed */
-}
-
 @keyframes fadeInBackground {
     from {
         opacity: 0;
@@ -10,6 +6,115 @@
         opacity: 1;
     }
 }
+
+@media (max-width: 575px) {
+    .display-infrastructure {
+        width: 100%; /* Optionally set width to 100% for small screens */
+    }
+    
+    .img-infrastructure img {
+        display: none;
+    }
+
+    .animated-background {
+        background-size: cover;
+    }
+
+    .infrastructure-text {
+        font-size: 18px;
+    }
+
+    .infrastructure-title{
+        font-size: 28px;
+    }
+
+    .infrastructure-content{
+        margin-top: 1.5rem;
+    }
+
+    .animated-background{
+        background-position: center;
+        background-size: cover;
+    }
+
+    .gift-text{
+        font-size: 12px;
+    }
+    
+    .gift-header{
+        display: none;
+    }
+    
+    .gift-header-title{
+        font-size: 2rem;
+    }
+} 
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .infrastructure-title {
+        font-size: 1rem;
+    }
+
+    
+    .img-infrastructure img {
+        display: none;
+    }
+
+    .infrastructure-text{
+        font-size: 18px;
+    }
+    
+    .animated-background{
+        background-size: auto;
+        background-position: center 30%;
+    }
+    
+    .gift-header{
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo-img {
+        margin-bottom: 15px;
+    }
+    
+    .animated-background{
+        background-size: auto;
+        background-position: center 30%;
+        background-repeat: no-repeat;
+    }
+
+    .img-infrastructure img {
+        display: none;
+    }
+
+    .custom-col {
+        margin-bottom: 15px;
+    }
+
+    .infrastructure-title {
+        font-size: 2.5rem;
+    }
+
+    .infrastructure-text{
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .infrastructure-title {
+        font-size: 3rem;
+    }
+
+}
+
+
+.animated-background {
+    animation: fadeInBackground 2s ease-out; /* You can adjust the duration and timing function as needed */
+}
+
 
 .logo-img {
     width: 100%; /* Make the image take up the full width of the column */
@@ -24,7 +129,7 @@
 }
 
 .img-infrastructure img:hover {
-    opacity: 1; /* Set opacity to 1 on hover */
+    opacity: 1; /* Set opacity to 1 on hover */ 
 }
 
 .btn-outline-info:hover {

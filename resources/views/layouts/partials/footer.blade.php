@@ -4,7 +4,7 @@
 <div class="container-fluid">
     <div class="row bg-info-subtle text-center shadow-sm">
         <div class="col-md-12">
-            <h1 class="fw-bold mb-3 mt-5 text-center">
+            <h1 class="fw-bold mb-3 mt-5 text-center text-break">
                 Reach Out Now and Join Us
             </h1>
 
@@ -24,11 +24,11 @@
             <div class="row">
                 <div class="col-md-8">
                     <div class="row mb-3">
-                        <div class="col-md-6">
-                            <img src="{{ asset('images/logo.png') }}" alt="" style="width: auto; height:50px">
+                        <div class="col-md-6 col-6 col-sm-6">
+                            <img class="img-footer-logo" src="{{ asset('images/logo.png') }}" alt="">
                         </div>
-                        <div class="col-md-6">
-                            <img src="{{ asset('images/logo_paysgift.png') }}" alt="" style="width: auto; height:50px">
+                        <div class="col-md-6 col-6 col-sm-6">
+                            <img class="img-footer-paysgift-logo" src="{{ asset('images/logo_paysgift.png') }}" alt="">
                         </div>
                     </div>
 
@@ -45,9 +45,9 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-6 justify-content-center">
+        <div class="col-md-6">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 col-6 mt-3">
                     <a href="{{ route('about.index') }}"><h5 class="pb-2 text-info fw-bold">About</h5></a>  
                     <a href="#">Privacy Policy</a><br>
                     <a href="#">Terms & Conditions</a><br>
@@ -55,13 +55,13 @@
                     <a href="{{ route('about.career') }}">Career</a><br>
                     <a href="{{ route('about.faq') }}">FAQ</a><br>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-6 mt-3">
                     <a href="{{ route('service.index') }}"><h5 class="pb-2 text-info fw-bold">Service</h5></a>  
                     <a href="{{ route('service.e-voucher-reseller') }}">E-Voucher Reseller</a><br>
                     <a href="{{ route('service.loyalty-program') }}">Loyalty Program</a><br>
                     <a href="{{ route('service.mobile-gifting') }}">Mobile Gifting</a><br>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-6 mt-3">
                     <a href="{{ route('contact-us.index') }}"><h5 class="pb-2 text-info fw-bold">Contact us</h5></a>  
                     <a href="https://wa.me/6281294000367" target="_blank">+6281294000367</a><br>
                     <a href="mailto:callcenter@aldmic.com">callcenter@aldmic.com</a><br>
