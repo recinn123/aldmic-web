@@ -64,7 +64,7 @@
     }
 
     .device-android{
-        flex-basis: 35%;
+        flex-basis: 31.5%;
     }
 
     .timeline-item-left-1 {
@@ -92,7 +92,7 @@
     }
 } 
 
-@media (min-width: 576px){
+@media (min-width: 576px) and (max-width: 767px){
     .top-banner {
         background-size: cover;
         background-position: center 45%;
@@ -183,6 +183,114 @@
     }
 }
 
+@media (min-width: 768px) and (max-width: 991px){
+    .subtitle-mission{
+        font-size: 18px;
+    }
+
+    .timeline-item-left-1 {
+        margin-left: 220px;
+    }
+    
+    .timeline-item-left-2 {
+        margin-left: 133px;
+    }
+    
+    .timeline-item-left-3 {
+        margin-left: 175px;
+    }
+    
+    .timeline-item-left-4 {
+        margin-left: 135px;
+    }
+    
+    .timeline-item-left-5 {
+        margin-left: 140px;
+    }
+    
+    .timeline-item-left-6 {
+        margin-left: 280px;
+    }
+
+    .timeline-item-right {
+        flex-basis: 40%;
+    }
+
+    .timeline-item-divider {
+        display: flex;
+        align-items: center;
+    }
+    
+    .timeline-item-divider span {
+        flex-grow: 1; 
+        background-color: #000;
+        padding: 8px;
+        border: 1px solid #000;
+        border-radius: 12px;
+        text-align: center;
+    }
+    
+    .timeline-item-divider::before {
+        content: "";
+        flex-grow: 1; 
+        height: 2px;
+        background-color: #000;
+    }
+}
+
+
+@media (min-width: 992px){
+    .timeline-item-left-1 {
+        margin-left: 450px;
+    }
+    
+    .timeline-item-left-2 {
+        margin-left: 370px;
+    }
+    
+    .timeline-item-left-3 {
+        margin-left: 410px;
+    }
+    
+    .timeline-item-left-4 {
+        margin-left: 375px;
+    }
+    
+    .timeline-item-left-5 {
+        margin-left: 375px;
+    }
+    
+    .timeline-item-left-6 {
+        margin-left: 520px;
+    }
+    
+    /* .timeline-item-left, */
+    .timeline-item-right {
+        flex-basis: 40%;
+    }
+    
+    .timeline-item-divider {
+        display: flex;
+        align-items: center;
+    }
+    
+    .timeline-item-divider span {
+        flex-grow: 1; 
+        background-color: #000;
+        padding: 8px;
+        border: 1px solid #000;
+        border-radius: 12px;
+        text-align: center;
+    }
+    
+    .timeline-item-divider::before {
+        content: "";
+        flex-grow: 1; 
+        height: 2px;
+        background-color: #000;
+    }
+    
+}
 .subtitle-mission {
     text-align: justify;
 }

@@ -72,7 +72,7 @@
             <div class="row d-flex justify-content-center align-items-center">
                 <div class="col-md-3 text-center mb-5">
                     <img class="img-fluid" src="{{ asset('images/service/mobile-gifting/gift_card_feature_1.png') }}" alt="">
-                    <div style="margin-left: 3rem; margin-right:3rem;">
+                    <div class="box-gift-text">
                         <p>
                             <span class="fw-bold">Barcodes:</span>
                              Easily to use include
@@ -84,7 +84,7 @@
     
                 <div class="col-md-3 text-center mb-5">
                     <img class="mb-3 img-fluid" src="{{ asset('images/service/mobile-gifting/gift_card_feature_2.png') }}" alt="">
-                    <div style="margin-left: 3rem; margin-right:3rem;">
+                    <div class="box-gift-text">
                         <p>
                             <span class="fw-bold">Barcodes:</span>
                              Easily to use include
@@ -96,7 +96,7 @@
     
                 <div class="col-md-3 text-center mb-5">
                     <img class="mb-3 img-fluid" src="{{ asset('images/service/mobile-gifting/gift_card_feature_3.png') }}" alt="">
-                    <div style="margin-left: 3rem; margin-right:3rem;">
+                    <div class="box-gift-text">
                         <p>
                             <span class="fw-bold">On Demand Service:</span>
                              Delivered
@@ -109,7 +109,7 @@
                 
                 <div class="col-md-3 text-center mb-5">
                     <img class="mb-3 img-fluid" src="{{ asset('images/service/mobile-gifting/gift_card_feature_4.png') }}" alt="">
-                    <div style="margin-left: 3rem; margin-right:3rem;">
+                    <div class="box-gift-text">
                         <p>
                             <span class="fw-bold">High Encrypt Data Security System:</span>
                             To protect the systems, Mobile Gift
@@ -209,7 +209,7 @@
             </div>
 
             <div class="row d-flex justify-content-center align-items-center">
-                <div class="col-md-7 col-sm-12 mb-5">
+                <div class="col-lg-7 col-md-12 col-sm-12 mb-5">
                     <div class="row">
                         <div class="mb-3 border-3 border-dark border-bottom feature-item">
                             Simple and Seamless Platform
@@ -233,13 +233,13 @@
                 </div>
                 
                 
-                <div class="col-md-5 col-sm-12 text-center mb-5 d-none d-md-block">
+                <div class="col-lg-5 col-sm-12 text-center mb-5 d-none d-lg-block">
                     <img class="mb-3" src="{{ asset('images/product/evoucher_banner_1.png') }}" alt="">
                 </div>
 
             </div>
             <div class="row text-center fw-bold d-none d-md-block">
-                <span style="font-size: 40px">
+                <span style="font-size: 36px">
                     Track your Mobile Gift Card Performance Easily with Dashboard Directly & Actually
                 </span>
             </div>
@@ -263,7 +263,7 @@
 
     {{-- Banner 5 --}}
     <div class="container-fluid">
-        <div class="row ps-5 pe-5 bg-light pt-5 pb-5 shadow-sm">
+        <div class="row ps-5 pe-5 bg-light pt-5 pb-5 shadow-sm d-flex align-items-center justify-content-center ">
             <div class="col-md-6 col-sm-12 text-center d-none d-md-block">
                 <img class=" img-fluid " src="{{ asset('images/service/mobile-gifting/image_statistic.png') }}" alt="" width="50%">
             </div>
@@ -274,7 +274,7 @@
                         <h4 class="text-info fw-bold">
                             Visual Based
                         </h4>
-                        <p class=" text-performance">
+                        <p class=" text-performance text-break">
                             Make it easy with an interface with the best visualization to monitor all
                             performance by design & graphics.
                         </p>
@@ -286,7 +286,7 @@
                         <h4 class="text-info fw-bold">
                             Performance Indicator
                         </h4>
-                        <p class=" text-performance">
+                        <p class="text-performance text-break">
                             You can personalize the performance indicator instead of your KPI as a part
                             of the business process in real time.
                         </p>
@@ -298,7 +298,7 @@
                         <h4 class="text-info fw-bold">
                             Revenue Dashboard
                         </h4>
-                        <p class=" text-performance">
+                        <p class=" text-performance text-break">
                             Ensure your Business Inquiries to make the other conversion, see your
                             achievement with revenue dashboard directly.
                         </p>
@@ -310,7 +310,7 @@
                         <h4 class="text-info fw-bold">
                             Real Time & Actual Based
                         </h4>
-                        <p class=" text-performance">
+                        <p class=" text-performance text-break">
                             Monitor your performance easily with real time manage service for brand
                             and user.
                         </p>

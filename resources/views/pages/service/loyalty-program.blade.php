@@ -25,16 +25,16 @@
                 </span>
             </h3>
         </div>
+        <div class="container text-center pb-5">
+            <img src="{{ asset('images/product/mouse_icon.png') }}" alt="">
+        </div>
     </div>  
-    <div class="container text-center pb-5">
-        <img src="{{ asset('images/product/mouse_icon.png') }}" alt="">
-    </div>
     {{-- End of Banner Loyalty Program --}}
     
     {{-- Banner Digital Program Feature --}}
     <div class="container-fluid">
         <div class="row ps-5 pe-5 bg-light pt-5 pb-5 shadow-sm">
-            <div class="col-lg-7 col-md-8 col-sm-12 mb-5">
+            <div class="col-lg-7 col-md-12 col-sm-12 mb-5">
                 <div class="row mb-3">
                     <h1 class="fw-bold banner-digital-title">
                         <span class="text-info">Digital Program</span>
@@ -57,7 +57,7 @@
                 </div>
             </div>
     
-            <div class="col-lg-5 col-md-8 col-sm-12 text-center mb-5 center-container d-none d-md-block">
+            <div class="col-lg-5 col-md-8 col-sm-12 text-center mb-5 center-container d-none d-lg-block">
                 <img class="pt-5 mb-3" src="{{ asset('images/service/loyalty-program/loyalty_banner.png') }}" alt="" style="width: auto; max-width: 100%;">
                 <h4 class="fw-bold quote pt-3" style="white-space: pre-line;"></h4>
             </div>
@@ -77,7 +77,7 @@
                 <div class="row d-flex justify-content-center">
                     <div class="col-md-4 text-center mb-5">
                         <img class="mb-3 img-fluid" src="{{ asset('images/service/loyalty-program/loyalty_program_benefits_1.png') }}" alt="">
-                        <div style="margin-left: 5rem; margin-right:5rem;">
+                        <div class="box-benefit-text">
                             <p>
                                 <span class="fw-bold">Customer Retention To Increase Sales KPI’s</span>
                                  Loyalty makes the
@@ -91,7 +91,7 @@
                     </div>
                     <div class="col-md-4 text-center mb-5">
                         <img class="mb-3 img-fluid" src="{{ asset('images/service/loyalty-program/loyalty_program_benefits_2.png') }}" alt="">
-                        <div style="margin-left: 5rem; margin-right:5rem;">
+                        <div class="box-benefit-text">
                             <p>
                                 <span class="fw-bold">Multi Channel Engagement:</span>
                                  As a
@@ -106,7 +106,7 @@
                     </div>
                     <div class="col-md-4 text-center mb-5">
                         <img class="mb-3 img-fluid" src="{{ asset('images/service/loyalty-program/loyalty_program_benefits_3.png') }}" alt="">
-                        <div style="margin-left: 5rem; margin-right:5rem;">
+                        <div class="box-benefit-text">
                             <p>
                                 <span class="fw-bold">Data Collection:</span>
                                  Enable your

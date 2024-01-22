@@ -35,7 +35,7 @@
 
 }
 
-@media (min-width: 576px){
+@media (min-width: 576px) and (max-width: 767px){
     .banner-loyalty {
         background-size: 25rem;
         background-position: 30% -75px;
@@ -65,6 +65,29 @@
         margin-bottom: 5rem;
     }
 
+}
+
+@media (min-width: 768px) {
+    
+    .banner-loyalty {
+        background-size: 25rem;
+        background-position: 30% -75px;
+        background-repeat: no-repeat;
+    }
+    
+    .box-benefit-text{
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    
+    .feature-item {
+        font-size: 1.5rem;
+        padding: 20px;
+    }
+
+    .banner-digital-title{
+        font-size: 3rem;
+    }
 }
 
 .feature-item {

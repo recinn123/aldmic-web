@@ -11,7 +11,7 @@
           <a class="nav-link me-lg-5 {{ Route::is('about.index') ? 'active fw-bold' : '' }}" href="{{ route('about.index') }}">About us</a>
         </li>
         <li class="nav-item me-lg-5">
-            <div class="dropdown d-none d-md-block">
+            <div class="dropdown d-none d-lg-block">
               <a href="#" class="nav-link dropdown-toggle btn-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Product
               </a>
@@ -65,7 +65,7 @@
               </ul>
             </div>
 
-            <div class="dropdown d-md-none">
+            <div class="dropdown d-lg-none">
               <a href="#" class="nav-link dropdown-toggle btn-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Product
               </a>

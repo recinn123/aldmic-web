@@ -23,6 +23,8 @@
 
     <div class="container pb-5">
         <form action="" method="post">
+            @csrf
+            
             <div class="row mb-4">
                 <div class="col-md-12 pt-1 pb-1 mb-4 banner-contact-form" style="width: 100%">
                     <span class="fs-5">

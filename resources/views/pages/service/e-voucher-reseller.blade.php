@@ -69,7 +69,7 @@
                 <div class="row d-flex justify-content-center">
                     <div class="col-md-4 text-center mb-5">
                         <img class="mb-3" src="{{ asset('images/product/service_icon_1.png') }}" alt="">
-                        <div style="margin-left: 5rem; margin-right:5rem;">
+                        <div class="box-advantage-text">
                             <p>
                                 <span class="fw-bold">Wide Product Range</span>
                                 Aldmic
@@ -83,7 +83,7 @@
         
                     <div class="col-md-4 text-center mb-5">
                         <img class="mb-3" src="{{ asset('images/product/service_icon_2.png') }}" alt="">
-                        <div style="margin-left: 5rem; margin-right:5rem;">
+                        <div class="box-advantage-text">
                             <p>
                                 <span class="fw-bold">Direct Distributions Vouchers</span>
                                 are directly distributed with a multi
@@ -96,7 +96,7 @@
         
                     <div class="col-md-4 text-center mb-5">
                         <img class="mb-3" src="{{ asset('images/product/service_icon_3.png') }}" alt="">
-                        <div style="margin-left: 5rem; margin-right:5rem;">
+                        <div class="box-advantage-text">
                             <p>
                                 <span class="fw-bold">High Scalability</span>
                                 Adapt your
@@ -112,7 +112,7 @@
                 <div class="row d-flex justify-content-center">
                     <div class="col-md-3 text-center mb-5">
                         <img class="mb-3" src="{{ asset('images/product/service_icon_4.png') }}" alt="">
-                        <div style="margin-left: 3rem; margin-right:3rem;">
+                        <div class="box-advantage-text-2">
                             <p>
                                 <span class="fw-bold">Flexible</span>
                                     Choose your best product
@@ -126,7 +126,7 @@
         
                     <div class="col-md-3 text-center mb-5">
                         <img class="mb-3" src="{{ asset('images/product/service_icon_5.png') }}" alt="">
-                        <div style="margin-left: 3rem; margin-right:3rem;">
+                        <div class="box-advantage-text-2">
                             <p>
                                 <span class="fw-bold">The Revenue Stream</span>
                                     Not only a
@@ -141,7 +141,7 @@
         
                     <div class="col-md-3 text-center mb-5">
                         <img class="mb-3" src="{{ asset('images/product/service_icon_6.png') }}" alt="">
-                        <div style="margin-left: 3rem; margin-right:3rem;">
+                        <div class="box-advantage-text-2">
                             <p>
                                 <span class="fw-bold">Data Insights</span>
                                     Not only revenue,
@@ -154,7 +154,7 @@
                     
                     <div class="col-md-3 text-center mb-5">
                         <img class="mb-3" src="{{ asset('images/product/service_icon_7.png') }}" alt="">
-                        <div style="margin-left: 3rem; margin-right:3rem;">
+                        <div class="box-advantage-text-2">
                             <p>
                                 <span class="fw-bold">Wide Market</span>
                                     Reach the

@@ -35,8 +35,8 @@
 
     {{-- Banner Projects --}}
     <div class="container-fluid pt-5 pb-5 banner-projects">
-        <div class="row ps-5 pe-5">
-            <div class="row mt-5">
+        <div class="row ps-5 pe-5 ">
+            <div class="row mt-5 d-flex justify-content-center align-items-center">
                 <div class="col-md-6 text-center mb-3">
                     <img src="{{ asset('images/service/projects_1.png') }}" alt="" class=" img-fluid">
                 </div>
@@ -64,7 +64,7 @@
                 </div>
             </div>
             
-            <div class="row mt-5">
+            <div class="row mt-5 d-flex justify-content-center align-items-center">
                 <div class="col-md-6 text-center d-md-none mb-3">
                     <img src="{{ asset('images/service/projects_2.png') }}" alt="" class=" img-fluid">
                 </div>
@@ -94,7 +94,7 @@
                 </div>
             </div>
     
-            <div class="row mt-5">
+            <div class="row mt-5 d-flex justify-content-center align-items-center">
                 <div class="col-md-6 text-center">
                     <img src="{{ asset('images/service/projects_3.png') }}" alt="" class=" img-fluid">
                 </div>
@@ -126,7 +126,7 @@
                 </div>
             </div>
     
-            <div class="row mt-5">
+            <div class="row mt-5 d-flex justify-content-center align-items-center">
                 <div class="col-md-6 mb-3 text-center d-md-none">
                     <img src="{{ asset('images/service/loyalty-program/loyalty_project_1.png') }}" alt="" class=" img-fluid">
                 </div>
@@ -150,7 +150,7 @@
                 </div>
             </div>
     
-            <div class="row mt-5">
+            <div class="row mt-5 d-flex justify-content-center align-items-center">
                 <div class="col-md-6 mb-3 text-center">
                     <img src="{{ asset('images/service/loyalty-program/loyalty_project_2.png') }}" alt="" class=" img-fluid">
                 </div>
@@ -169,7 +169,7 @@
                 </div>
             </div>
             
-            <div class="row mt-5 align-items-center">
+            <div class="row mt-5 d-flex justify-content-center align-items-center">
                 <div class="col-md-6 mb-3 text-center d-md-none">
                     <img src="{{ asset('images/service/loyalty-program/loyalty_project_3.png') }}" alt="" class=" img-fluid">
                 </div>

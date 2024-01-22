@@ -35,7 +35,7 @@
     {{-- Banner infrastructure --}}
     <div class="container-fluid bg-light">
         <div class="row d-flex bg-light align-items-center justify-content-center">
-            <div class="col-md-6 col-12 display-infrastructure">
+            <div class="col-md-12 col-12 col-sm-12 col-lg-6 display-infrastructure">
                 <div class="ms-5">
                     <span class="infrastructure-title mt-5 pb-5 mb-5 text-left fw-bold">
                         Our Infrastructure For <span class="text-primary">Business Sustainability</span>
@@ -209,7 +209,7 @@
             </h1>
 
             <div class="custom-col mb-5 d-flex justify-content-center align-items-center">
-                <div class="medium-large-layout d-none d-md-block">
+                <div class="medium-large-layout d-none d-lg-block">
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
                         <div class="col">
                             <div class="text-center">
@@ -238,7 +238,7 @@
                 </div>
             </div>
 
-            <div class="d-md-none custom-col mb-5 d-flex justify-content-center align-items-center">
+            <div class="d-lg-none custom-col mb-5 d-flex justify-content-center align-items-center">
                 <div class="row">
                     <div class="row mb-5">
                         <div class="col-6">

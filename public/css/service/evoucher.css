@@ -48,7 +48,7 @@
     
 }
 
-@media (min-width: 576px){
+@media (min-width: 576px) and (max-width: 767) {
     
     .top-banner {
         background-size: contain;
@@ -86,6 +86,29 @@
     .banner-logo-paysgift{
         height: 100%;
         width: 20rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .top-banner {
+        background-size: contain;
+        background-position: center 45%;
+        background-repeat: no-repeat;
+    }
+
+    .box-advantage-text{
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    
+    .box-advantage-text-2{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .banner-logo-paysgift{
+        height: 100%;
+        width: 15rem;
     }
 }
 
